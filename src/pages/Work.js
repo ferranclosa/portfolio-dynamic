@@ -28,9 +28,9 @@ const Work = (props) => {
 
     }, [language])
 
-    useEffect(() => {
-        console.log(JSON.stringify(profesional))
-    }, [profesional])
+    // useEffect(() => {
+    //     console.log(JSON.stringify(profesional))
+    // }, [profesional])
 
 
     return (

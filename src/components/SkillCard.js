@@ -60,13 +60,11 @@ const SkillCard = (props) => {
             <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent >
                     <Typography paragraph 
-                    // className='faq-title'
                     >
                         {level}
                     </Typography>
                    
                     <Typography paragraph 
-                    // className='faq-text'
                     >
                         {description}
                     </Typography>
