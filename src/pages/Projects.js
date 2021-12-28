@@ -55,7 +55,7 @@ const Projects = (props) => {
                             return a.order - b.order
                         }).map((one => (
 
-                            <ProjectCard
+                            <ProjectCard 
                             key={uniqid()}
                                 title={one.title}
                                 subtitle={one.subtitle}

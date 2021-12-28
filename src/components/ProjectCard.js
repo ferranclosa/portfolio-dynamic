@@ -69,7 +69,7 @@ const ProjectCard = (props) => {
 
 
   return (
-    <Card >
+    <Card className="project-item">
       <CardHeader
 
         title={title}

@@ -61,7 +61,7 @@ header {
 
 main {
   padding: 4rem;
-  // height: 100%;
+ 
   min-height: calc(100vh - 60px);
 
   .icons {
@@ -135,9 +135,10 @@ main {
 
 // Work/Projects
 .projects {
-  display: grid;
-  grid-gap: 0.7rem;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+  // grid-template-columns: repeat(4, 1fr);
 
   img {
     width: 100%;
@@ -150,7 +151,9 @@ main {
       @include easeOut;
     }
   }
+ 
 }
+
 
 .MuiCardMedia-img{
   object-fit: cover  !important;
@@ -215,7 +218,9 @@ main {
   .project-item-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // height: 100vh;
+    justify-content: space-around;
+    // align-items: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
 
@@ -223,9 +228,10 @@ main {
       background: lighten($primary-color, 5);
       width: 90%;
       height: auto;
-      padding: 1rem;
-      margin-right: 1rem;
-      padding-bottom: 1rem;
+      // padding: 1rem;
+      margin-top: 1rem;
+      // margin-right: 1rem;
+      // padding-bottom: 1rem;
       border-bottom: $secondary-color 5px solid;
     }
   }

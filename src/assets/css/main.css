@@ -300,9 +300,9 @@ main#home {
 }
 
 .projects {
-  display: grid;
-  grid-gap: 0.7rem;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
 }
 .projects img {
   width: 100%;
@@ -368,7 +368,7 @@ main#home {
 .project-container .project-item-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   box-sizing: border-box;
 }
@@ -376,9 +376,7 @@ main#home {
   background: #253448;
   width: 90%;
   height: auto;
-  padding: 1rem;
-  margin-right: 1rem;
-  padding-bottom: 1rem;
+  margin-top: 1rem;
   border-bottom: #fcc62d 5px solid;
 }
 
