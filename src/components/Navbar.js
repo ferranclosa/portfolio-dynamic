@@ -22,7 +22,7 @@ const Navbar = (props) => {
         menus.filter((one => one.language === language))
             .map((one => {
                 setMenu({
-                    profes: one.profes, perso: one.perso, contact: one.contact, skills: one.skills, projects: one.projects
+                    profes: one.profes, perso: one.perso, contact: one.contact, skills: one.skills, projects: one.projects, timel: one.timel
                 })
 
             }))
@@ -151,6 +151,25 @@ const Navbar = (props) => {
         }
     }
 
+    const handleTimeLine = () => {
+        switch (language) {
+            case 'en':
+                navigate('/timeline/en')
+                break;
+            case 'sp':
+                navigate('/timeline/sp')
+                break
+            case 'ca':
+                navigate('/timeline/ca')
+                break
+            case 'fr':
+                navigate('/timeline/fr')
+                break
+            default:
+                break;
+        }
+    }
+
     return (
         <div>
             <nav>
@@ -178,6 +197,7 @@ const Navbar = (props) => {
                         {menu.skills !== undefined ? <a onClick={handleSkills}>{menu.skills}</a> : null}
                         {menu.projects !== undefined ? <a onClick={handleProjects}>{menu.projects}</a> : null}
                         {menu.contact !== undefined ? <a onClick={handleContact}>{menu.contact}</a> : null}
+                        {menu.timel !== undefined ? <a onClick={handleTimeLine}>{menu.timel}</a> : null}
 
                     </div>
                 </div>

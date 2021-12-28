@@ -5,7 +5,7 @@ const mains = [
         title: "Ferran Closa Cervera",
         firstWord: "Ferran ", 
         spannedWord: "Closa Cervera", 
-        subtitle: "Enterprise Architect, Microservices, Web, Front and Back end, Trainer",
+        subtitle: "Enterprise Architect, Microservices, Web, Full-Stack development, Trainer",
         description: "Welcome to my personal page, were you will find out some details about me...",
         ceo: "CEO of erronea.eu"
     }, 

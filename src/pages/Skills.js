@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react"
 
-import SkillCard from "components/SkillCard";
+import SkillCard from "components/SkillCard"
 
-import skillsdata from "data/skillsdata";
+import skillsdata from "data/skillsdata"
 
 /**
  * This page shows the skills collection, that are fed from a file in JSON
- * The only prop is acception is language, as it needs to know in which 
+ * The only prop is accepted is language, as it needs to know in which 
  * language it has to show them. 
  * 
  * The JSON object contains a language key value, that is used to filter the data
@@ -39,9 +39,7 @@ const Skills = (props) => {
 
     }, [language])
 
-    // useEffect(() => {
-    //     console.log(JSON.stringify(skill))
-    // }, [skill])
+   
 
     return (
 
@@ -56,7 +54,9 @@ const Skills = (props) => {
 
             <div className="faq-container" >
                 {skill.details.length > 0 ?
-                    skill.details.map((one => (
+                    skill.details.sort((a, b) => {
+                        return a.order - b.order
+                    }).map((one => (
                         <div className="faq">
                             <SkillCard
                                 title={one.title}
@@ -72,5 +72,5 @@ const Skills = (props) => {
 
     )
 }
- 
+
 export default Skills

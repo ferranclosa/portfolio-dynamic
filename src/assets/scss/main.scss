@@ -142,6 +142,7 @@ main {
   img {
     width: 100%;
     border: 3px #fff solid;
+    object-fit: cover;
 
     &:hover {
       opacity: 0.5;
@@ -151,6 +152,9 @@ main {
   }
 }
 
+.MuiCardMedia-img{
+  object-fit: cover  !important;
+}
 .about-container {
   
   .about-intro {
@@ -175,6 +179,7 @@ main {
   }
 }
 
+
 .contact-container {
   .contact-intro {
     font-size: 1.5rem;
@@ -195,6 +200,32 @@ main {
       height: auto;
       padding: 1rem;
       margin-right: 1rem;
+      border-bottom: $secondary-color 5px solid;
+    }
+  }
+}
+
+
+.project-container {
+  
+  .project-intro {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .project-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+    .project-item {
+      background: lighten($primary-color, 5);
+      width: 90%;
+      height: auto;
+      padding: 1rem;
+      margin-right: 1rem;
+      padding-bottom: 1rem;
       border-bottom: $secondary-color 5px solid;
     }
   }
@@ -344,6 +375,12 @@ main {
   writing-mode: horizontal-tb;
 }
 
+.portrait{
+  background-image: "src/assets/img/Ferran Aug 2021.jpg";
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media (max-width: 600px) {
   .hidden {
     display: none;
@@ -434,14 +471,13 @@ main {
 
 nav {
   
-  // margin: 0 auto;
+ background-color: $primary-color;
   display: flex;
-  justify-content: space-between;
-  // overflow: hidden;
-  // background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
+  justify-content: space-around;
+  // overflow: visible;
+  // position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 80%; /* Full width */
+  width: 100vw; /* Full width */
 }
 
 .logo {
@@ -522,11 +558,79 @@ nav {
 .MuiCard-root {
   background-color: $primary-light !important;
   color: $secondary-light !important;
+  margin-bottom: 1rem;
  
+}
+
+.MuiCardHeader-subheader{
+  color: $secondary-dark !important;
+}
+
+.MuiCardMedia-root{
+  width: 60%;
+  align-items: center;
+  justify-content: center;
 }
 
 .MuiButtonBase-root{
   color: $secondary-dark !important;
 }
 
+.timeline-card-content{
+  background-color: $primary-light;
+  
+  header{
+    background-color: $secondary-light;
+    border-radius: 3px;
+  }
+  a{
+    color : $primary-color;
+  }
+  .card-sub-title{
+    background-color: $secondary-color; 
+    color: $primary-color;
+    margin-top: 2rem;
+    border-radius: 7px;
+    width: 100%;
+  }
+
+}
+.card-content-wrapper{
+  section{
+    min-width: 100px !important;
+  
+  }
+}
+.css-16u30nb-TimelineControlContainer {
+  align-items: center;
+  position: fixed; 
+  right: 90px; 
+  top:50px;
+  display: flex;
+  justify-content: center;
+  min-width: 3rem;
+  margin-bottom: 1rem;;
+
+  filter: opacity(0.9);
+}
+
+.css-1t1h6li-TimelineItemContentWrapper {
+  align-items: center;
+  background: $secondary-color;
+  border-radius: 4px;
+  display: flex;
+  margin-bottom: 1rem;;
+  // flex-direction: row;
+  -webkit-filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.2));
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 1.5em;
+  // max-width: px;
+  min-height: 100px !important;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  z-index: 0;
+}
 @import "mobile";

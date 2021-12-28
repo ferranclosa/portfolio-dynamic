@@ -6,7 +6,9 @@ import MainLanding from 'pages/MainLanding';
 import About from 'pages/About';
 import Work from 'pages/Work';
 import Skills from 'pages/Skills';
+import Projects from 'pages/Projects'
 import Contact from 'pages/Contact';
+import ChronoVertical from 'pages/ChronoVertical';
 import Navbar from './Navbar';
 import NotImplemented from 'pages/NotImplemented';
 
@@ -18,7 +20,7 @@ const MainRouter = () => {
     <Router>
       <Navbar language = "en"/>
         <Routes>
-          <Route exact path={'/main/en'} element={<MainLanding language="en" />} />
+          <Route exact path={'/main/en', '/'} element={<MainLanding language="en" />} />
           <Route exact path={'/main/ca'} element={<MainLanding language="ca"  />} />
           <Route exact path={'/main/sp'} element={<MainLanding language="sp"  />} />
           <Route exact path={'/main/fr'} element={<MainLanding language="fr"  />} />
@@ -44,6 +46,15 @@ const MainRouter = () => {
           <Route exact path={'/skills/ca'} element={<Skills language="ca"  />} />
           <Route exact path={'/skills/fr'} element={<Skills language="fr"  />} />
 
+          <Route exact path={'/projects/sp'} element={<Projects language="sp"  />} />
+          <Route exact path={'/projects/en'} element={<Projects language="en"  />} />
+          <Route exact path={'/projects/ca'} element={<Projects language="ca"  />} />
+          <Route exact path={'/projects/fr'} element={<Projects language="fr"  />} />
+
+          <Route exact path={'/timeline/sp'} element={<ChronoVertical language="sp"  />} />
+          <Route exact path={'/timeline/en'} element={<ChronoVertical language="en"  />} />
+          <Route exact path={'/timeline/ca'} element={<ChronoVertical language="ca"  />} />
+          <Route exact path={'/timeline/fr'} element={<ChronoVertical language="fr"  />} />
 
 
           <Route element={ <NotImplemented  />} />

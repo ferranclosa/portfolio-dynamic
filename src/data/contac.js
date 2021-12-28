@@ -8,8 +8,9 @@ const contac = [
     details: [
         { means: "email", mean: "ferranclosa@gmail.com" , url:"mailto: ferranclosa@gmail.com", icon:"https://img.icons8.com/ios-filled/100/000000/github.png"},
         { means: "github", mean: "github/ferranclosa", url:"https://github.com/ferranclosa", icon:"https://img.icons8.com/ios-filled/100/000000/github.png"},
-        { means: "web", mean: "ferranclosa.eu", url:"https://ferranclosa.eu"  }
-         
+            { means: "web", mean: "ferranclosa.eu", url:"https://ferranclosa.eu"} ,
+            { means: "linkedin", mean: "LinkedIn", url:"https://www.linkedin.com/in/ferran-closa-cervera-02815221/"  } ,
+            { means: "youtube", mean: "YouTube", url:"https://www.youtube.com/channel/UCEUqzslQQYfgLIyOdi4-qmQ"  } 
     ]}, 
 
     {  language: "sp",
@@ -21,7 +22,9 @@ const contac = [
     details: [
         { means: "email", mean: "ferranclosa@gmail.com" , url:"mailto: ferranclosa@gmail.com"},
         { means: "github", mean: "github/ferranclosa", url:"https://github.com/ferranclosa" },
-        { means: "web", mean: "ferranclosa.eu", url:"https://ferranclosa.eu"  }
+        { means: "web", mean: "ferranclosa.eu", url:"https://ferranclosa.eu"  },
+        { means: "linkedin", mean: "LinkedIn", url:"https://www.linkedin.com/in/ferran-closa-cervera-02815221/"  } ,
+        { means: "youtube", mean: "YouTube", url:"https://www.youtube.com/channel/UCEUqzslQQYfgLIyOdi4-qmQ"  }
     ]}
     ,
     {  language: "ca",
@@ -33,7 +36,9 @@ const contac = [
     details: [
         { means: "email", mean: "ferranclosa@gmail.com" , url:"mailto: ferranclosa@gmail.com"},
         { means: "github", mean: "github/ferranclosa", url:"https://github.com/ferranclosa"},
-        { means: "web", mean: "ferranclosa.eu", url:"https://ferranclosa.eu"  }
+        { means: "web", mean: "ferranclosa.eu", url:"https://ferranclosa.eu"  },
+        { means: "linkedin", mean: "LinkedIn", url:"https://www.linkedin.com/in/ferran-closa-cervera-02815221/"  } ,
+        { means: "youtube", mean: "YouTube", url:"https://www.youtube.com/channel/UCEUqzslQQYfgLIyOdi4-qmQ"  }
          
     ]}, 
     {  language: "fr",
@@ -45,7 +50,9 @@ const contac = [
     details: [
         { means: "email", mean: "ferranclosa@gmail.com" , url:"mailto: ferranclosa@gmail.com" , icon:"https://img.icons8.com/ios-filled/100/000000/github.png"},
         { means: "github", mean: "github/ferranclosa", url:"https://github.com/ferranclosa"},
-        { means: "web", mean: "ferranclosa.eu", url:"https://ferranclosa.eu" }
+        { means: "web", mean: "ferranclosa.eu", url:"https://ferranclosa.eu" },
+        { means: "linkedin", mean: "LinkedIn", url:"https://www.linkedin.com/in/ferran-closa-cervera-02815221/"  } ,
+        { means: "youtube", mean: "YouTube" , url:"https://www.youtube.com/channel/UCEUqzslQQYfgLIyOdi4-qmQ"  }
          
     ]}
 ]

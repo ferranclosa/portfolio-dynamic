@@ -28,11 +28,7 @@ const Work = (props) => {
 
     }, [language])
 
-    // useEffect(() => {
-    //     console.log(JSON.stringify(profesional))
-    // }, [profesional])
-
-
+ 
     return (
 
         <main id="about">
@@ -53,6 +49,7 @@ const Work = (props) => {
 
                             <div className="about-item">
                                 <h3 className="text-secondary">{one.title}</h3>
+                                <h5>{one.subtitle}</h5>
                                 <p>
                                     {one.description}
                                 </p>

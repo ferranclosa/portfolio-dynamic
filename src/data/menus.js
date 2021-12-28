@@ -2,45 +2,42 @@ const menus =
     [
         {
             language: "sp",
-
-
             profes: "Profesional",
             perso: "Personal",
             contact: "Contacto", 
-            skills: "Saberes", 
-            projects: "Proyectos"
-
+            skills: "Habilidades", 
+            projects: "Proyectos", 
+            timel: "Línea de tiempo"
         },
         {
             language: "en",
-
-
-            profes: "Profesional Path",
+            profes: "Profesional",
             perso: "Personal",
-            contact: "Contact Me", 
-            skills: "Skill Set", 
-            projects: "Achievements"
+            contact: "Contact", 
+            skills: "Skills", 
+            projects: "Projects",
+            timel: 'Timeline'
 
         },
         {
             language: "ca",
-
-
             profes: "Profesional",
             perso: "Personal",
-            contact: "Contacta", 
-            skills: "Sabers", 
-            projects: "Projectes"
+            contact: "Contacte", 
+            skills: "Habilitats", 
+            projects: "Projectes", 
+            timel: 'Cronologia'
         },
         {
             language: "fr",
 
 
             profes: "Profesionel",
-            perso: "Personel",
-            contact: "Contacter", 
-            skills: "Savoir faires", 
-            projects: "Projets"
+            perso: "Personnel",
+            contact: "Contact", 
+            skills: "Compétences", 
+            projects: "Projets", 
+            timel: "Chronologie"
         }
     ]
 

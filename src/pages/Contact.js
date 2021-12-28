@@ -5,8 +5,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import LanguageIcon from '@mui/icons-material/Language';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
-import { ReactComponent as GithubIcon } from 'assets/icon/github-svgrepo-com.svg';
 
 
 const Contact = (props) => {
@@ -37,9 +37,7 @@ const Contact = (props) => {
 
     }, [language])
 
-    useEffect(() => {
-        console.log(JSON.stringify(contacto))
-    }, [contacto])
+    
 
 
     return (
@@ -49,6 +47,8 @@ const Contact = (props) => {
                 {contacto.firstWord} <span className="text-secondary">{contacto.spannedWord}</span> {contacto.lastWord}
             </h1>
 
+            <div className="portrait"></div>
+            
             <div className="contact-container">
 
                 <div className="contact-intro">
@@ -63,16 +63,18 @@ const Contact = (props) => {
                             <div className="contact-item">
                                 <h3 className="text-secondary">{one.means}</h3>
                                 <div className="logo">
-                                    {one.means === "email" ? <EmailIcon ></EmailIcon>: null}
-                                    {one.means === "web" ? <LanguageIcon></LanguageIcon>: null}
-                                    {one.means === "github" ? <GitHubIcon></GitHubIcon>: null}
-                                    {one.means === "linkedin" ? <LinkedInIcon></LinkedInIcon>: null}
-                                    {/* <img src={one.icon} alt="erronea" /> */}
+                                    {one.means === "email" ? 
+                                    (<a href={one.url} target="_blank"><EmailIcon ></EmailIcon></a>): null}
+                                    {one.means === "web" ? (
+                                    <a href={one.url} target="_blank">
+                                    <LanguageIcon></LanguageIcon> </a>): null}
+                                    {one.means === "github" ? 
+                                    (<a href={one.url} target="_blank"> <GitHubIcon></GitHubIcon> </a>): null}
+                                    {one.means === "linkedin" ? 
+                                    (<a href={one.url} target="_blank"><LinkedInIcon></LinkedInIcon></a>) : null}
+                                    {one.means === "youtube" ? 
+                                    (<a href={one.url} target="_blank" ><YouTubeIcon></YouTubeIcon></a>): null}
                                 </div>
-
-                                <a href={one.url} target="_blank">
-                                    {one.mean}
-                                </a>
                             </div>
                         )))
 

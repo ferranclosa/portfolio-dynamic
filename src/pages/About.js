@@ -28,9 +28,9 @@ const About = (props) => {
 
     }, [language])
 
-    useEffect(() => {
-        console.log(JSON.stringify(personal))
-    }, [personal])
+    // useEffect(() => {
+    //     console.log(JSON.stringify(personal))
+    // }, [personal])
 
 
     return (

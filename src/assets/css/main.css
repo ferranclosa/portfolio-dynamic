@@ -307,11 +307,16 @@ main#home {
 .projects img {
   width: 100%;
   border: 3px #fff solid;
+  object-fit: cover;
 }
 .projects img:hover {
   opacity: 0.5;
   border-color: #fcc62d;
   transition: all 0.5s ease-out;
+}
+
+.MuiCardMedia-img {
+  object-fit: cover !important;
 }
 
 .about-container .about-intro {
@@ -353,6 +358,27 @@ main#home {
   height: auto;
   padding: 1rem;
   margin-right: 1rem;
+  border-bottom: #fcc62d 5px solid;
+}
+
+.project-container .project-intro {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.project-container .project-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.project-container .project-item-container .project-item {
+  background: #253448;
+  width: 90%;
+  height: auto;
+  padding: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 1rem;
   border-bottom: #fcc62d 5px solid;
 }
 
@@ -494,6 +520,12 @@ main#home {
   writing-mode: horizontal-tb;
 }
 
+.portrait {
+  background-image: "src/assets/img/Ferran Aug 2021.jpg";
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media (max-width: 600px) {
   .hidden {
     display: none;
@@ -586,13 +618,12 @@ main#home {
 * Repository: https://github.com/bluebits-academy/language-switcher
 */
 nav {
+  background-color: #1c2837;
   display: flex;
-  justify-content: space-between;
-  position: fixed;
-  /* Set the navbar to fixed position */
+  justify-content: space-around;
   top: 0;
   /* Position the navbar at the top of the page */
-  width: 80%;
+  width: 100vw;
   /* Full width */
 }
 
@@ -673,10 +704,73 @@ nav {
 .MuiCard-root {
   background-color: #3e587b !important;
   color: #ffe293 !important;
+  margin-bottom: 1rem;
+}
+
+.MuiCardHeader-subheader {
+  color: #fcc62d !important;
+}
+
+.MuiCardMedia-root {
+  width: 60%;
+  align-items: center;
+  justify-content: center;
 }
 
 .MuiButtonBase-root {
   color: #fcc62d !important;
+}
+
+.timeline-card-content {
+  background-color: #3e587b;
+}
+.timeline-card-content header {
+  background-color: #ffe293;
+  border-radius: 3px;
+}
+.timeline-card-content a {
+  color: #1c2837;
+}
+.timeline-card-content .card-sub-title {
+  background-color: #fcc62d;
+  color: #1c2837;
+  margin-top: 2rem;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.card-content-wrapper section {
+  min-width: 100px !important;
+}
+
+.css-16u30nb-TimelineControlContainer {
+  align-items: center;
+  position: fixed;
+  right: 90px;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  min-width: 3rem;
+  margin-bottom: 1rem;
+  filter: opacity(0.9);
+}
+
+.css-1t1h6li-TimelineItemContentWrapper {
+  align-items: center;
+  background: #fcc62d;
+  border-radius: 4px;
+  display: flex;
+  margin-bottom: 1rem;
+  -webkit-filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.2));
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 1.5em;
+  min-height: 100px !important;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  z-index: 0;
 }
 
 @media screen and (min-width: 1171px) {
@@ -726,13 +820,28 @@ div.menu-branding.show {
     height: 150px;
   }
 
-  .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3" "job4" "job5" "job6";
-    grid-template-columns: 1fr;
-  }
-
   .projects {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-container .about-intro {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .about-container .about-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  .about-container .about-item-container .about-item {
+    background: #253448;
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-bottom: #fcc62d 5px solid;
   }
 }
 @media screen and (max-width: 500px) {
