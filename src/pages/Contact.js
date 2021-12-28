@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import uniqid from 'uniqid'
 
 import contac from "data/contac";
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -60,7 +61,7 @@ const Contact = (props) => {
                     {contacto.details.length > 0 ?
                         contacto.details.map((one => (
 
-                            <div className="contact-item">
+                            <div className="contact-item" key={uniqid()}>
                                 <h3 className="text-secondary">{one.means}</h3>
                                 <div className="logo">
                                     {one.means === "email" ? 

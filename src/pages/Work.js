@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import uniqid from 'uniqid'
+
 
 import profes from "data/profes";
 
@@ -47,7 +49,7 @@ const Work = (props) => {
                     {profesional.details.length > 0?
                         profesional.details.map((one => (
 
-                            <div className="about-item">
+                            <div className="about-item" key={uniqid()}>
                                 <h3 className="text-secondary">{one.title}</h3>
                                 <h5>{one.subtitle}</h5>
                                 <p>

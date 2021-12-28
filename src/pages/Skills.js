@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-
+import uniqid from 'uniqid'
 import SkillCard from "components/SkillCard"
 
 import skillsdata from "data/skillsdata"
@@ -57,7 +57,7 @@ const Skills = (props) => {
                     skill.details.sort((a, b) => {
                         return a.order - b.order
                     }).map((one => (
-                        <div className="faq">
+                        <div className="faq" key={uniqid()}>
                             <SkillCard
                                 title={one.title}
                                 level={one.level}

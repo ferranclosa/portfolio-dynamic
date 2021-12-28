@@ -29,6 +29,14 @@ const skillsdata =
                     stars: 1,
                     order: 9
                 },
+                 
+                { 
+                    title: "Javascript, React, HTML5 & CSS3", 
+                    level: "Good", 
+                    description: "Recently I've had to produce prototypes for end-to-end solutions that required a Front end. To such end, I have reached a level that allows me to produce and show working solutions using Agile project methodology." , 
+                    stars: 5,
+                    order: 4
+                }, 
                 { 
                     title: "Java & J2EE", 
                     level: "Excellent", 
@@ -39,19 +47,19 @@ const skillsdata =
                 { 
                     title: "Languages", 
                     level: "Very fluent", 
-                    description: "English is the language I think in. Often, over my own mother tongue. French, although I learned it later in life, I also speak it very fluently. Of course, Spanish and Catalan, as my mother tongue languages, I master them too.", 
+                    description: "In all these languages I'm very fluent, no hesitation whatsoever. English, French, Spanish and Catalan", 
                     stars: 4,
                     order: 6
                 },
                 { 
                     title: "Frameworks", 
                     level: "Very competent", 
-                    description: "Spring, React, NodeJs, Cloud and Devops( Git, Jenkins, AWS, Heroku, PCF), Web related (HTML5, CSS3, JavaScript)" , 
+                    description: "Spring, SpringBoot, Cloud and Devops ( Github, Jenkins, AWS, Heroku, PCF), Web, JPA, ORM,  JMS, MQ, VCS " , 
                     stars: 4,
                     order: 2
                 },
                 { 
-                    title: "SQL, DBA", 
+                    title: "SQL, DBA, NoSQL", 
                     level: "Competent", 
                     description: "SQL, JDBC, JPA, ORM, Hibernate, Oracle, DB2, MySql, PostGres" , 
                     stars: 3,
@@ -60,7 +68,7 @@ const skillsdata =
                 { 
                     title: "People's Skills", 
                     level: "Competent", 
-                    description: "Project, Conflict, Priosities, Team Building, Negotiation" , 
+                    description: "Project, Conflict, Priorities, Team Building, Negotiation" , 
                     stars: 3,
                     order: 9
                 },
@@ -102,6 +110,14 @@ const skillsdata =
                     stars: 4,
                     order: 8
                 },
+                
+                { 
+                    title: "Javascript, ReactJs, HTML5 and CSS3", 
+                    level: "Good", 
+                    description: "Recently I've had to produce prototypes for end-to-end solutions that required a Front end. I have achieved a level able to produce them and help me show to business the implementation of Data flows, etc." , 
+                    stars: 4,
+                    order: 8
+                }, 
                 { 
                     title: "Languages", 
                     level: "Very fluent", 

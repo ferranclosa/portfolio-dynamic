@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import uniqid from 'uniqid'
 
 import projectdata from "data/projectdata";
 
@@ -55,6 +56,7 @@ const Projects = (props) => {
                         }).map((one => (
 
                             <ProjectCard
+                            key={uniqid()}
                                 title={one.title}
                                 subtitle={one.subtitle}
                                 place={one.place}

@@ -16,7 +16,8 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "sass": "^1.45.1",
-    "serve": "^13.0.2"
+    "serve": "^13.0.2",
+    "uniqid": "^5.4.0"
   },
   "engines": {
     "node": "16.13.0"
