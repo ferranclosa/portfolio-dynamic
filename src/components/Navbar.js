@@ -49,7 +49,7 @@ const Navbar = (props) => {
 
     const handleEnglish = () => {
         setLanguage('en')
-        navigate('/main/en')
+        navigate('/')
     }
 
     const handleProfesional = () => {

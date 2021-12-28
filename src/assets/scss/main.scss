@@ -427,6 +427,39 @@ main {
     top: 5px;
     left: 60%;
   }
+  
+.faq-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.faq {
+  border: 1px solid #9fa4a8;
+  border-radius: 5px;
+  margin: 10px 0;
+
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+  width: 100%;
+  height:auto;
+}
+
+
+.faq-title {
+  font-size: 1.7rem;
+  margin: 0 35px 0 0;
+}
+
+.faq-text {
+  display: none;
+  margin: 30px 0 0;
+  color: black; 
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
 }
 
 @media (min-width: 500) {
@@ -558,7 +591,7 @@ nav {
 .MuiCard-root {
   background-color: $primary-light !important;
   color: $secondary-light !important;
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
  
 }
 

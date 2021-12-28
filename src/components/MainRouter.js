@@ -20,7 +20,7 @@ const MainRouter = () => {
     <Router>
       <Navbar language = "en"/>
         <Routes>
-          <Route exact path={'/main/en', '/'} element={<MainLanding language="en" />} />
+          <Route path={'/main/en', '/'} element={<MainLanding language="en" />} />
           <Route exact path={'/main/ca'} element={<MainLanding language="ca"  />} />
           <Route exact path={'/main/sp'} element={<MainLanding language="sp"  />} />
           <Route exact path={'/main/fr'} element={<MainLanding language="fr"  />} />
