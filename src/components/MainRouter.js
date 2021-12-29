@@ -8,7 +8,7 @@ import Work from 'pages/Work';
 import Skills from 'pages/Skills';
 import Projects from 'pages/Projects'
 import Contact from 'pages/Contact';
-import ChronoVertical from 'pages/ChronoVertical';
+import TimeLine from 'pages/TimeLine';
 import Navbar from './Navbar';
 import NotImplemented from 'pages/NotImplemented';
 
@@ -51,10 +51,10 @@ const MainRouter = () => {
           <Route exact path={'/projects/ca'} element={<Projects language="ca"  />} />
           <Route exact path={'/projects/fr'} element={<Projects language="fr"  />} />
 
-          <Route exact path={'/timeline/sp'} element={<ChronoVertical language="sp"  />} />
-          <Route exact path={'/timeline/en'} element={<ChronoVertical language="en"  />} />
-          <Route exact path={'/timeline/ca'} element={<ChronoVertical language="ca"  />} />
-          <Route exact path={'/timeline/fr'} element={<ChronoVertical language="fr"  />} />
+          <Route exact path={'/timeline/sp'} element={<TimeLine language="sp"  />} />
+          <Route exact path={'/timeline/en'} element={<TimeLine language="en"  />} />
+          <Route exact path={'/timeline/ca'} element={<TimeLine language="ca"  />} />
+          <Route exact path={'/timeline/fr'} element={<TimeLine language="fr"  />} />
 
 
           <Route element={ <NotImplemented  />} />
