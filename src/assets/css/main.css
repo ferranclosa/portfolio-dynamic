@@ -750,7 +750,7 @@ nav {
 }
 
 .timeline-card-content {
-  background-color: #3e587b;
+  background-color: #fcc62d !important;
 }
 .timeline-card-content header {
   background-color: #ffe293;
