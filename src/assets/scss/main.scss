@@ -2,6 +2,8 @@
 @import "menu";
 @import "accordion";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +23,8 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  // font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat',  sans-serif;
   line-height: 1.5;
 }
 
@@ -303,11 +306,11 @@ main {
   }
   .welcome {
     flex: 1, 0, 70%;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   p {
-    width: 60vw;
+    width: 70vw;
   }
 }
 
@@ -510,9 +513,10 @@ main {
 
 nav {
   
- background-color: $primary-color;
+  background-color: $primary-light;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   // overflow: visible;
   // position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
@@ -520,17 +524,17 @@ nav {
 }
 
 .logo {
-  width: 40px;
+  width: 50px;
 }
 
 .logo img {
-  width: 40px;
+  width: 45px;
 }
 
 .lang-menu {
   width: 100px;
   text-align: right;
-  font-weight: bold;
+  // font-weight: bold;
   margin-top: 25px;
   position: relative;
 }
@@ -544,13 +548,13 @@ nav {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: $primary-light;
+  background-color: $primary-color;
   color: white;
   padding: 16px;
   font-size: 16px;
   font-weight: bold;
-  border: none;
-  border-radius: 5px;
+  border: 1px solid $secondary-color;
+  border-radius: 5px solid $secondary-color;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -563,10 +567,12 @@ nav {
 .dropdown-content {
   display: none;
   position: absolute;
+  right: 0px;
   background-color: $secondary-color;
-  min-width: 160px;
+  min-width: fit-content;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+ 
 }
 
 /* Links inside the dropdown */
@@ -576,6 +582,7 @@ nav {
   text-decoration: none;
   display: block;
   font-weight: bold;
+  // text-align: right;
 }
 
 /* Change color of dropdown links on hover */

@@ -73,82 +73,160 @@ const itemss = [
       },
     ],
   },
+  {
+    language: "sp",
+    events: [
       {
-        language: "sp",
-        events: [   
-          {
-            title: "January, 1962",
-            cardTitle: "Nacimiento, Terrassa, 1962",
-            url: "https://www.terrassa.cat/es",
-            cardSubtitle:
-              'Una de esas cosas que pasan.',
-          },
-    
-          {
-            title: "1970- 1981",
-            cardTitle: "Studios de Musica y Violin. Graduación",
-            url: "https://ajuntament.barcelona.cat/conservatori/es",
-            cardSubtitle:
-              'Eso siguió a un sueño, después de ver a un niño de 9 años, tocando una pieza de Sarasate en la televisión. ¡Qué viaje!',
-          },
-          {
-            title: "June, 1983",
-            cardTitle: "Violinista, Orquesta Sinfónica de Sevilla",
-            url: "https://rossevillatv.com",
-            cardSubtitle:
-              'Solicité y conseguí una plaza en la Sinfónica de la Maestranza, en Sevilla. Fue mi primer trabajo como músico',
-          },
-          {
-            title: "June, 1984",
-            cardTitle: "Profesor de Violín, Conservatorio Liceu Mataro, Barcelona",
-            url: "https://www.conservatoriliceu.es/escoles/vinculades/escola-de-musica-liceu-mataro/",
-            cardSubtitle:
-              'Se abrió un puesto de profesor en Mataró, cerca de mi ciudad natal, y solicité y conseguí la plaza y me mudé de nuevo a Barcelona',
-          },
-          {
-            title: "1987-1992",
-            cardTitle: "Violinista, Orquesta Sinfónica del Vallés, Sabadell",
-            url: "http://www.osvalles.com/es",
-            cardSubtitle:
-              'Una orquesta de nueva creación brindó oportunidades. Esto comenzó un período en mi vida en el que fui a la vez un musicien y un profesor de música',
-          },
-          {
-            title: "1992",
-            cardTitle: "The Mistery, and move to London",
-            url: "https://www.enthealth.org/conditions/cholesteatoma/",
-            cardSubtitle:
-              'Todas las historias tienen un misterio. Esta es la mía. Decidí mudarme a Londres, para conseguir un espacio entre mi pasado y en qué se convertiría mi futuro',
-          },
-          {
-            title: "1992-1994",
-            cardTitle: "IT Student, London",
-            url: "http://www.osvalles.com/es",
-            cardSubtitle: `Decidí invertir en aprender un lenguaje de programación, como COBOL, RPG, Object Pascal y Visual Basic, con la esperanza de encontrar un trabajo.  `
-          },
-          {
-            title: "1994-1997",
-            cardTitle: "IT Trainer, Forbes UK, London",
-            url: "http://www.forbes.com/es",
-            cardSubtitle: `Este fue un trabajo tanto para la capacitación como para la preparación de material de capacitación para la capacitación en el sitio. Tuve la iniciativa de abrir los cursos a candidatos en línea y a distancia. Debido a 
+        title: "January, 1962",
+        cardTitle: "Nacimiento, Terrassa, 1962",
+        url: "https://www.terrassa.cat/es",
+        cardSubtitle:
+          'Una de esas cosas que pasan.',
+      },
+
+      {
+        title: "1970- 1981",
+        cardTitle: "Studios de Musica y Violin. Graduación",
+        url: "https://ajuntament.barcelona.cat/conservatori/es",
+        cardSubtitle:
+          'Eso siguió a un sueño, después de ver a un niño de 9 años, tocando una pieza de Sarasate en la televisión. ¡Qué viaje!',
+      },
+      {
+        title: "June, 1983",
+        cardTitle: "Violinista, Orquesta Sinfónica de Sevilla",
+        url: "https://rossevillatv.com",
+        cardSubtitle:
+          'Solicité y conseguí una plaza en la Sinfónica de la Maestranza, en Sevilla. Fue mi primer trabajo como músico',
+      },
+      {
+        title: "June, 1984",
+        cardTitle: "Profesor de Violín, Conservatorio Liceu Mataro, Barcelona",
+        url: "https://www.conservatoriliceu.es/escoles/vinculades/escola-de-musica-liceu-mataro/",
+        cardSubtitle:
+          'Se abrió un puesto de profesor en Mataró, cerca de mi ciudad natal, y solicité y conseguí la plaza y me mudé de nuevo a Barcelona',
+      },
+      {
+        title: "1987-1992",
+        cardTitle: "Violinista, Orquesta Sinfónica del Vallés, Sabadell",
+        url: "http://www.osvalles.com/es",
+        cardSubtitle:
+          'Una orquesta de nueva creación brindó oportunidades. Esto comenzó un período en mi vida en el que fui a la vez un musicien y un profesor de música',
+      },
+      {
+        title: "1992",
+        cardTitle: "The Mistery, and move to London",
+        url: "https://www.enthealth.org/conditions/cholesteatoma/",
+        cardSubtitle:
+          'Todas las historias tienen un misterio. Esta es la mía. Decidí mudarme a Londres, para conseguir un espacio entre mi pasado y en qué se convertiría mi futuro',
+      },
+      {
+        title: "1992-1994",
+        cardTitle: "IT Student, London",
+        url: "http://www.osvalles.com/es",
+        cardSubtitle: `Decidí invertir en aprender un lenguaje de programación, como COBOL, RPG, Object Pascal y Visual Basic, con la esperanza de encontrar un trabajo.  `
+      },
+      {
+        title: "1994-1997",
+        cardTitle: "IT Trainer, Forbes UK, London",
+        url: "http://www.forbes.com/es",
+        cardSubtitle: `Este fue un trabajo tanto para la capacitación como para la preparación de material de capacitación para la capacitación en el sitio. Tuve la iniciativa de abrir los cursos a candidatos en línea y a distancia. Debido a 
             la enorme demanda, resultó ser un nuevo mercado para la empresa `
-    
-          },
-    
-          {
-            title: "1998-2007",
-            cardTitle: "Software Developper, HSBC UK, London",
-            url: "https://www.hsbc.co.uk/",
-            cardSubtitle: `Fui cazado por uno de mis estudiantes anteriores en Forbes. Comenzó como un desarrollador, ascendiendo en la escalera a puestos cada vez más altos.    `
-    
-          },
-          {
-            title: "2007- now",
-            cardTitle: "Commercial Banking Architecte, HSBC FR, Paris",
-            url: "https://www.hsbc.fr/",
-            cardSubtitle: `'En Francia llegué de HSBC UK, como experto en ETL y después de una estancia de 5 años en Francia como expatriado, me ofrecieron un puesto como experto en sistemas de HSBC y 
+
+      },
+
+      {
+        title: "1998-2007",
+        cardTitle: "Software Developper, HSBC UK, London",
+        url: "https://www.hsbc.co.uk/",
+        cardSubtitle: `Fui cazado por uno de mis estudiantes anteriores en Forbes. Comenzó como un desarrollador, ascendiendo en la escalera a puestos cada vez más altos.    `
+
+      },
+      {
+        title: "2007- now",
+        cardTitle: "Commercial Banking Architecte, HSBC FR, Paris",
+        url: "https://www.hsbc.fr/",
+        cardSubtitle: `'En Francia llegué de HSBC UK, como experto en ETL y después de una estancia de 5 años en Francia como expatriado, me ofrecieron un puesto como experto en sistemas de HSBC y 
             y Arquitecto de Banca Comercial.      `
-    
-          },
+
+      },
+    ],
+  },
+  {
+    language: "ca",
+    events: [
+      {
+        title: "January, 1962",
+        cardTitle: "Naixement, Terrassa, 1962",
+        url: "https://www.terrassa.cat/es",
+        cardSubtitle:
+          'Una de esas cosas que pasan.',
+      },
+
+      {
+        title: "1970- 1981",
+        cardTitle: "Estudis de Musica y Violî.  Graduació",
+        url: "https://ajuntament.barcelona.cat/conservatori/es",
+        cardSubtitle:
+          `Això va seguir a un somni, després de veure un nen de 9 anys, tocant una peça de Sarasate a la televisió. ¡Quin viatge!`,
+      },
+      {
+        title: "June, 1983",
+        cardTitle: "Violinista, Orquesta Sinfónica de Sevilla",
+        url: "https://rossevillatv.com",
+        cardSubtitle:
+          'Demano i aconsegueixo una plaça a la Simfònica de la Maestranza, a Sevilla. Va ser el meu primer treball com a músic',
+      },
+      {
+        title: "June, 1984",
+        cardTitle: "Profesor de Violín, Conservatorio Liceu Mataro, Barcelona",
+        url: "https://www.conservatoriliceu.es/escoles/vinculades/escola-de-musica-liceu-mataro/",
+        cardSubtitle:
+          'Es va obrir una plaça de professor a Mataró, a prop de la meva ciutat natal, on vaig postular i obtenir la plaça i em moc de nou a Barcelona',
+      },
+      {
+        title: "1987-1992",
+        cardTitle: "Violinista, Orquesta Sinfónica del Vallés, Sabadell",
+        url: "http://www.osvalles.com/es",
+        cardSubtitle:
+          'Una orquesta de nueva creación brindó oportunidades. Esto comenzó un período en mi vida en el que fui a la vez un musicien y un profesor de música',
+      },
+      {
+        title: "1992",
+        cardTitle: "The Mistery, and move to London",
+        url: "https://www.enthealth.org/conditions/cholesteatoma/",
+        cardSubtitle:
+          'Totes les històries tenen un misteri. Aquesta és la meva. Decidí mudar-me a Londres, per aconseguir un espai entre el meu passat i en què es convertiria el meu futur',
+      },
+      {
+        title: "1992-1994",
+        cardTitle: "IT Student, London",
+        url: "http://www.osvalles.com/es",
+        cardSubtitle: `Decideixo invertir en aprendre un llenguatge de programació, com COBOL, RPG,  Object  Pascal i Visual Basic, amb l'esperança de trobar una feina `
+      },
+      {
+        title: "1994-1997",
+        cardTitle: "IT Trainer, Forbes UK, London",
+        url: "http://www.forbes.com/es",
+        cardSubtitle: `E'Aquest va ser un treball tant per a la capacitació com per a la preparació de material de capacitació per a la capacitació al lloc. Vaig tenir la iniciativa d'obrir els cursos a candidats en línia i a distància. A causa de 
+        l'enorme demanda, va resultar ser un nou mercat per a l'empresa `
+
+      },
+
+      {
+        title: "1998-2007",
+        cardTitle: "Software Developper, HSBC UK, London",
+        url: "https://www.hsbc.co.uk/",
+        cardSubtitle: `Vaig esser 'head-hunted' per un dels meus ex-estudiants a Forbes. Vaig començar com un desenvolupador, pujant a l'escala a llocs cada vegada més alts.     `
+
+      },
+      {
+        title: "2007- now",
+        cardTitle: "Commercial Banking Architecte, HSBC FR, Paris",
+        url: "https://www.hsbc.fr/",
+        cardSubtitle: `A França vaig arrivar d'HSBC UK, com a expert en ETL i després d'una estada de 5 anys a França com a expatriat, em van oferir un lloc com a expert en sistemes d'HSBC i 
+        i Arquitecte de Banca Comercial.`
+
+      },
     ]
   }
 

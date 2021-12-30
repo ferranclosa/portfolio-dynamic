@@ -6,7 +6,7 @@ const perso = [
         spannedWord: "Soy",
         intro: "Hola, soy Ferran. Espero poder ofrecer una pequena vision de mi persona y que esto le ayude a tomar una decision sobre su relacion conmigo.",
         details: [
-            { title: "Espanol", description: "Esto fue un accidente, pero uno afortunado.Tengo 59 anos y contando. He vivido una gran parte de mi vida en otros lugares, pero my casa sigue siendo mi tierra, mi gente y mis lugares." },
+            { title: "Español", description: "Esto fue un accidente, pero uno afortunado. Tengo 59 anos y contando. He vivido una gran parte de mi vida en otros lugares, pero my casa sigue siendo mi tierra, mi gente y mis lugares." },
             { title: "Musico", description: "Mi historial educacional siguio de muy pronto una vocacion por la musica, muy especialemente por el estudio del violin." },
             { title: "Informatico", description: "Otro afortunado accidente. Lo que me atrajo, en principio fue la curiosidad y pronto, las capacidades creativas que le son associadas, como el hecho de crear algo a partir de una idea, sin mas misterios que la adopcion y combinacion de diferentes algoritmos. Esta es la faceta de my trabajo con la que mas disfruto y que me aporta mas satisfacion." },
             { title: "Padre", description: "No exactamente un accidente, pero sea lo que fuere, el mas feliz de los episodios de my existencia. Devenir padre debe de ser lo que menos esfuerzo require, pero ser uno de bueno, eso ya es otro cantar. La informatica, a su lado, es pan comido. Tengo tres hijas y un hijastro, por aquello de los tumbos que damos en la vida" },
@@ -23,7 +23,7 @@ const perso = [
         spannedWord: "am I",
         intro: "Hi I'm Ferran. I hope to provide you with a little view into my universe, not only professional, but also personal. This should, I hope, ensure that you'll understand you are you dealing with when doing it with me.",
         details: [
-            { title: "Spanish", description: "This was an accidebnt, but a happy one. I'm 59 years old and I have lived a great number of years in other countries, but Spain remains my land, my people, my roots. You English have a wonderful word for that: Home." },
+            { title: "Spanish", description: "This was an accident, but a happy one. I'm 59 years old and I have lived a great number of years in other countries, but Spain remains my land, my people, my roots. You English have a wonderful word for that: Home." },
             { title: "Musician", description: "My early beginnings where pasionnetely around music. Specially the violin, which for me, holds a magical and mystic element that, in my case it does last." },
             { title: "Informatician", description: "Another lucky accident. What attracted me, in principle, was curiosity and soon, the creative capacities that are associated with it, such as the fact of creating something from an idea, with no more tools than the adoption and combination of different algorithms. This is the part of my work which I enjoy the most and that gives me the most pleasure." },
             { title: "Father", description: "Not exactly an accident, but whatever it was, the happiest of the episodes of my existence. Becoming a father must be what requires the least effort, but being a good one, that is another matter. Computer science, by his side, is easy. I have three daughters and a stepson, because of the stumbles we give in life" },

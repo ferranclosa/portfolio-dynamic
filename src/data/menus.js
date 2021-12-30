@@ -7,7 +7,7 @@ const menus =
             contact: "Contacto", 
             skills: "Habilidades", 
             projects: "Proyectos", 
-            timel: "Línea de tiempo"
+            timel: "Cronología"
         },
         {
             language: "en",

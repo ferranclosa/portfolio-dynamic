@@ -243,10 +243,10 @@ const skillsdata =
         {
             language: "ca",
             title: "Ferran Closa Cervera",
-            firstWord: "els",
-            spannedWord: "Sabers",
+            firstWord: "les ",
+            spannedWord: "Competéncies",
             lastWord: "",
-            intro: "The Skills I have adquired over the years, are build over my curiosity and need. For work or for personal curiosity, I have a strong analystical mind and I recognise patterns. I like travelling back and forth from the abstract to the detail. These common patterns have facilitated the learning curve for profesional, lenaguage, culture or travelling that have been a constant in my life.",
+            intro: `Les competències que he anant adquirint al llarg dels anys, es construeixen sobre la meva curiositat i a partir de les necessitats derivades de la feina. Tinc una forta ment analitzadora i reconec patrons i models. M'agrada viatjar d'anada i tornada des de l'abstracte fins als detalls. Aquests patrons comuns han facilitat la corba d'aprenentatge per a professionals, llengües cultura o viatges que han estat una constant en la meva vida.`,
             details: [
                 {
                     title: "IT Project Management",
@@ -276,16 +276,16 @@ const skillsdata =
                     order: 8
                 },
                 { 
-                    title: "Languages", 
-                    level: "Very fluent", 
-                    description: "English is the language I think in. Often, over my own mother tongue. French, although I learned it later in life, I also speak it very fluently. Of course, Spanish and Catalan, as my mother tongue languages, I master them too.", 
+                    title: "Llengües", 
+                    level: "Molt fluent", 
+                    description: "A part del Català i Castellà, soc molt fluent en Anglés (Proficiency level) y Francés (actualment basat a Paris). Disfruto veient com les llengües no només difereixen entre elles per els vocabularis , pero sobretot, com condicionent la estructura del pensament", 
                     stars: 4,
                     order: 9
                 },
                 { 
                     title: "Frameworks", 
-                    level: "Very competent", 
-                    description: "Spring, React, NodeJs, Cloud and Devops( Git, Jenkins, AWS, Heroku, PCF), Web related (HTML5, CSS3, JavaScript)" , 
+                    level: "Molt competent", 
+                    description: "Spring, React, NodeJs, Cloud and Devops( Git, Jenkins, AWS, Heroku, PCF), Web related (HTML5, CSS3, JavaScript). Com m'agraden, intento manteninrme al dia amb les evolucions que constatment s'appliqent" , 
                     stars: 4,
                     order: 9
                 },
