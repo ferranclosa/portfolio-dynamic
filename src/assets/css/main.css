@@ -445,7 +445,7 @@ main#home {
   font-size: 1.5rem;
 }
 .container p {
-  width: 70vw;
+  width: 100%;
 }
 
 .faq-container {
@@ -638,7 +638,7 @@ main#home {
   }
 
   .welcome {
-    display: none;
+    width: 100%;
   }
 }
 /* 

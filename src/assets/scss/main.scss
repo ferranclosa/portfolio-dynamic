@@ -310,7 +310,7 @@ main {
   }
 
   p {
-    width: 70vw;
+    width: 100%;
   }
 }
 
@@ -500,7 +500,7 @@ main {
     grid-template-columns: 1fr;
   }
   .welcome {
-    display: none;
+    width: 100%;
   }
 }
 

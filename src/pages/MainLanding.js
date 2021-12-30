@@ -38,7 +38,7 @@ const MainLanding = (props) => {
                 </h2>
                 <div className="container">
 
-                    <div className="icons ">
+                    {/* <div className="icons ">
                         <a href="https://www.youtube.com/channel/UCEUqzslQQYfgLIyOdi4-qmQ" target="'_blank">
                             <i className="fab fa-youtube fa-2x"></i>
                         </a>
@@ -48,8 +48,8 @@ const MainLanding = (props) => {
                         <a href="https://github.com/ferranclosa">
                             <i className="fab fa-github fa-2x"></i>
                         </a>
-                    </div>
-                    <div className="welcome hidden">
+                    </div> */}
+                    <div className="welcome">
                         <p>
                             {main.description}
                             </p>
