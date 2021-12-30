@@ -55,7 +55,7 @@ const perso = [
         spannedWord: "jo Soc",
         intro: "Espero poder obrir una finestra al meu univers... Així, sabràs amb qui estàs establint una relació...",
         details: [
-            { title: "Castellà", subtitle: "", description: "Va ser un accident, però un accident afortunat. Tinc 59 anys i compto. He viscut gran part de la meva vida en altres llocs, però la meva llar segueix sent la meva terra, la meva gent i els meus llocs" },
+            { title: "Català", subtitle: "", description: "Va ser un accident, però un accident afortunat. Tinc els meus anys i continuo a comptar. He viscut gran part de la meva vida en altres llocs, però la meva llar segueix sent la meva terra, la meva gent i els meus llocs" },
             { title: "Músic", subtitle: "", description: "La meva història educativa va seguir molt de sobte una vocació per la música, especialment per a l'estudi del violí." },
             { title: "Informàtic", subtitle: "", description: "Un altre accident afortunat. El que em va atreure, en principi, va ser la curiositat i aviat, les habilitats creatives associades a ella, com crear alguna cosa a partir d'una idea, sense més misteris que adoptar i combinar diferents algoritmes. Aquesta és la faceta del meu treball amb la qual més aprecio i la que em dóna més satisfacció" },
             { title: "Papà", subtitle: "", description: "No exactament un accident, però de totes maneres, l'episodi més feliç de la meva existència. Ser pare ha de ser el menys esforç que consumeix, però ser bo és una altra cançó. La informàtica, al seu costat, és un joc de nens. Tinc tres filles i un gendre, per les ensopegades que donem a la vida" },

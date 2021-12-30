@@ -2,7 +2,7 @@ const profes = [
     {
     language: "en",
         title: "Ferran Closa Cervera",
-        firstWord: "the ",
+        firstWord: "my ",
         spannedWord: "Experience",
         intro: "Enthusiast and with a thirty-year experience, on areas like commerce, showbusiness, logistics, finance and banking. Although not initially inclined towards an IT career, I came to love its fulfilling potential for changing people's lives. ",
         details: [
@@ -49,12 +49,11 @@ const profes = [
     language: "fr",
     title: " Ferran Closa Cervera ",
     firstWord : "mon ",
-    spannedWord: " Expérience ",
+    spannedWord: " Expérience",
     intro: "Passionné et avec une expérience de trente ans, sur des domaines comme le commerce, le showbusiness, la logistique, la finance et la banque. Bien que n’étant pas initialement enclin à une carrière en informatique, j’en suis venu à aimer son potentiel épanouissant pour changer la vie des gens. conmigo. ",
     details: [
         { title: " Enterpise Architect ", subtitle: " 12 ans ", description: " L’architecture est un chemin de progression naturel d’un développeur senior, si vous avez tendance à progresser et à l’ambition. En tant qu’architecte, j’ai participé à l’adaptation des systèmes Legacy et à leur avancement. L’utilisation des Microservices, du Web, du Cloud et de la révolution numérique a été une constante pendant toutes ces années. " },
         { title: " Back End Developer ", subtitle: " 6 ans ", description: " Ici j’ai développé par des compétences de POO, en utilisant Java, ORM, JPA, SQL " }, 
-       
         { title: " Chef de projet informatique ", subtitle: " 13 ans ", description: " En tant que développeur senior et expert, vous devez souvent porter plus d’un chapeau. Je n’ai pas fait exception et j’ai apprécié le frisson du cycle de vie du projet et sa mise en œuvre avec succès. J’ai utilisé différentes méthodes comme SDLC et Agile " },
         { title: " RPG & ILE developper ",subtitle: " 4 ans ", description: " RPG est un langage informatique IBM utilisé dans une famille de serveurs mid-frame, appelé iSeries ou AS/400. Il est utilisé par les moyennes / grandes entreprises, car il s’agit d’un serveur capable de servir des applications à part entière. Ce serait le contraire de l’informatique distribuée. Avoir tout cela dans un seul serveur (base de données, moteur informatique, couche de présentation) était très attrayant pour les entreprises, pour le coût et la simplicité. Cette simplicité est cependant devenue un fardeau et un limite pour l’ère numérique."}, 
         { title: " Developper & Trainer ", subtitle: " 4 ans ", description: " Mes premiers pas sur l’informatique ont été sur les langages de la vieille école, avec COBOL et Structured Programing. J’étais fasciné par le paradigme de l’orientation objet. J’ai autodidacte Object Pascal, Delphi et Visual Basic.        J’ai travaillé dans une entreprise de formation à la fois en tant que formateur et j’ai mis mes nouvelles compétences en pratique en ouvrant les cours sur site et sur site à l’apprentissage en ligne et à distance. Ce faisant, ouvrir un nouveau marché pour l’entreprise. " }, 

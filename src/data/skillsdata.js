@@ -7,10 +7,10 @@ const skillsdata =
             firstWord: "the",
             spannedWord: "Skills ",
             lastWord: "I’ve learn",
-            intro: "The Skills I have acquired over the years, are built over my curiosity and need. For work or for personal curiosity, I have a strong analytical mind and I recognise patterns. I like travelling back and forth from the abstract to the detail. These common patterns have facilitated the learning curve for professional, language, culture or travelling that have been a constant in my life.",
+            intro: "The Skills I have acquired over the years, are built either curiosity or by need. I have a strong analytical mind and I recognise patterns. I like going back and forth from the abstract to the detail. These common patterns have facilitated the learning curve for professional, language, culture that have been a constant in my life.",
             details: [
                 {
-                    title: "IT Project Management",
+                    title: "Project Management",
                     level: "Good",
                     description: "I have learnt the different methodologies (SDLC and Agile) as well as some of the tools (Jira, MS Project, Niku) used on this trade. I excel in team management, motivation and breaking silos. Complex inter-project dependencies.",
                     stars: 2,
@@ -31,9 +31,9 @@ const skillsdata =
                 },
                  
                 { 
-                    title: "Javascript, React, HTML5 & CSS3", 
+                    title: "WEB & Front End", 
                     level: "Good", 
-                    description: "Recently I've had to produce prototypes for end-to-end solutions that required a Front end. To such end, I have reached a level that allows me to produce and show working solutions using Agile project methodology." , 
+                    description: "Javascript, React, HTML5 & CSS3. Recently I've had to produce prototypes for end-to-end solutions that required a Front end. To such end, I have reached a level that allows me to produce and show working solutions using Agile project methodology." , 
                     stars: 5,
                     order: 4
                 }, 
@@ -84,7 +84,7 @@ const skillsdata =
             intro: "The Skills I have adquired over the years, are build over my curiosity and need. For work or for personal curiosity, I have a strong analystical mind and I recognise patterns. I like travelling back and forth from the abstract to the detail. These common patterns have facilitated the learning curve for profesional, lenaguage, culture or travelling that have been a constant in my life.",
             details: [
                 {
-                    title: "IT Project Management",
+                    title: "Project Management",
                     level: "Good",
                     description: "I have learnt the different methodologies (SDLC and Agile) as well as some of the tools (Jira, MS Project, Niku) used on this trade. I excel in team management, motivation and breaking silos. Complex inter-project dependencies.",
                     stars: 2,
@@ -112,9 +112,9 @@ const skillsdata =
                 },
                 
                 { 
-                    title: "Javascript, ReactJs, HTML5 and CSS3", 
+                    title: "Web & Front End", 
                     level: "Good", 
-                    description: "Recently I've had to produce prototypes for end-to-end solutions that required a Front end. I have achieved a level able to produce them and help me show to business the implementation of Data flows, etc." , 
+                    description: "Javascript, ReactJs, HTML5 and CSS3. Recently I've had to produce prototypes for end-to-end solutions that required a Front end. I have achieved a level able to produce them and help me show to business the implementation of Data flows, etc." , 
                     stars: 4,
                     order: 8
                 }, 
@@ -144,7 +144,7 @@ const skillsdata =
              à des problèmes et a ces solutions. Dans mon cas, quand j’identifie un modèle il m’est plus facile de visualiser une solution. ` ,
             details: [
                 {
-                    title: "IT Project Management",
+                    title: "Gestion des Projets",
                     level: "Bon",
                     description: `J’ai appris les différentes méthodologies (SDLC et Agile) ainsi que certains des outils (Jira, MS Project, Niku) utilisés dans ce domaine. J’excelle dans la gestion d’équipe, la motivation et la rupture des silos. J’ai beaucoup d’expérience dans la résolution des conflits intra-projet pour des ressources limitées et dates conflictuels`,
                     stars: 2,
