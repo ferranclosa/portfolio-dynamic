@@ -44,7 +44,9 @@ const projectdata =
                     title:"Union Bancaire de Paris", 
                     subtitle:"Data Migration, Change Management, Risk Management, This was the second of a chain of migrations for the Groupe CCF in France.",                    
                     level:"Excellent", 
-                    description:"Learning leasson, It thaught me a lot with regards to overconfidence. This project was a follow-up to the Banque de Picardie project, and there was incorrectly placed assumptions, that led to wrong decisions. The type of customer was very diffrent, as well as the product offering. At the end, everything was fine, but they were some difficult times.", 
+                    description:`This project thaught me a lesson. On the dangers of overconfidence. This project was a follow-up to the Banque de Picardie project, 
+                            and there were incorrectly placed assumptions, that led to wrong decisions. The type of customer was very diffrent, as well as the product offering. 
+                            At the end, everything was fine, but they were some difficult times following an implementation with plenty of errors.`, 
                     stars: 1,
                     order: 40, 
                     place:"Paris",
@@ -67,7 +69,9 @@ const projectdata =
                     title:"HSBC Turkey", 
                     subtitle:"Data Migration, Change Management, Risk Management, Cultural challenges.",                    
                     level:"Excellent", 
-                    description:"Both Migrating data into a Core Banking System and implementing the change of the Turkish Lira, where last three 0 are dropped from the currency, During my stay, in Istambul, a terrorist attack againt HSBC and the UK participation in the Irak war, stopped the project, and it was transferred back to London.", 
+                    description:`Both Migrating data into a Core Banking System and implementing the change of the Turkish Lira, 
+                        where last three zeros where dropped from the currency, During my stay, in Istambul, a terrorist attack against 
+                        HSBC and the UK participation in the Irak war, stopped the project, and I was transferred back to London.`, 
                     stars: 1,
                     order: 100, 
                     place:"Istambul",
@@ -202,7 +206,111 @@ const projectdata =
                 }
             ]
         },
-
+        {
+            language:"sp",
+            title:"Ferran Closa Cervera",
+            firstWord:"",
+            spannedWord:"Proyectos",
+            lastWord:"I’ve enjoyed",
+            intro:`Esta es una muestra de proyectos de TI, la mayoría de ellos con gran complejidad. 
+                Todos ellos con resultados exitosos, he aportado mi visión personal de cada proyecto, 
+                ya que, a nivel mundial, han sido experiencias sumamente útiles. Tenga en cuenta que estos proyectos tienden a ser grandes proyectos corporativos`,
+            details: [
+                {
+                    title:"IT Modernisation programme",
+                    subtitle:"Roadmap from legacy to Cloud, Microservices, Channels, Cyber, BlockChain and, Digitalisation", 
+                    place:"Paris",
+                    year:"2014", 
+                    code:"ITM",
+                    description:"This project consists on the review and implementation of all our systems to ensure that they are ready for the Digital Era. This means moving out of legacy systems and platforms into more distributed and API aware systems. This is where Microservices become relevant, as well as the Channels stream where we integrate solutions with customers and open secure channels",
+                    stars: 6,
+                    order: 10
+                },
+                {
+                    title:"HSBC France Fusion",
+                    subtitle:"Legal entity change, Change Management, Data merging and Migration, Business lines Alignnement, Rationalisation of resources, Geographical dysplace",                    
+                    place:"Paris",
+                    year:"2007", 
+                    code:"FUS",
+                    description:"This project involved a change on the HSBC legal entity from an Member of the Group HSBC to being HSBC France. There was both a massive data migration project, but also the impact on the customers, as all contracts and accounts had to be re-created under the newfinancial institution",
+                    stars: 2,
+                    order: 20
+                },
+                { 
+                    title:"Banque Hervé", 
+                    subtitle:"Data Migration, Change Management, Risk Management",                    
+                    level:"Excellent", 
+                    description:"This was a Data Migration project, which was executed using robots, which via scripts, they simulated data capture and automated BAU exception handling. This approach was decided based on the small customer number (< 8K)", 
+                    stars: 5,
+                    order: 30, 
+                    place:"Paris",
+                    year:"2005", 
+                    code:"HER",
+                },
+                { 
+                    title:"Union Bancaire de Paris", 
+                    subtitle:"Data Migration, Change Management, Risk Management, This was the second of a chain of migrations for the Groupe CCF in France.",                    
+                    level:"Excellent", 
+                    description:`This project thaught me a lesson. On the dangers of overconfidence. This project was a follow-up to the Banque de Picardie project, 
+                            and there were incorrectly placed assumptions, that led to wrong decisions. The type of customer was very diffrent, as well as the product offering. 
+                            At the end, everything was fine, but they were some difficult times following an implementation with plenty of errors.`, 
+                    stars: 1,
+                    order: 40, 
+                    place:"Paris",
+                    year:"2004", 
+                    code:"UBP",
+                },
+                
+                { 
+                    title:"Banque de Picardie", 
+                    subtitle:"Data Migration, Change Management, Risk Management, This was the first of a chain of migrations for the Groupe CCF in France",                    
+                    level:"Excellent", 
+                    description:"Here, as it was the first one of many, I had to first adapt to French corporate culture, including learning the language, and then slowly but surely 'sell' my capabilities until they accepted me as one that could help them deliver what we had to deliver", 
+                    stars: 1,
+                    order: 50, 
+                    place:"Amiens",
+                    year:"2002", 
+                    code:"PIC",
+                },
+                { 
+                    title:"HSBC Turkey", 
+                    subtitle:"Data Migration, Change Management, Risk Management, Cultural challenges.",                    
+                    level:"Excellent", 
+                    description:`Both Migrating data into a Core Banking System and implementing the change of the Turkish Lira, 
+                        where last three zeros where dropped from the currency, During my stay, in Istambul, a terrorist attack against 
+                        HSBC and the UK participation in the Irak war, stopped the project, and I was transferred back to London.`, 
+                    stars: 1,
+                    order: 100, 
+                    place:"Istambul",
+                    year:"1999", 
+                    code:"IST",
+                },
+                { 
+                    title:"HSBC Malta", 
+                    subtitle:"Data Migration, Change Management, Risk Management, Cultural challenges.",                    
+                    level:"Excellent", 
+                    description:"Following the acquisition of the biggest bank in Malta, A poject was initiated to move to HSBC systems. This was my first large project abroad, and I, personally still feel a strong attachment and connection with that project and all that it represented for the team members that participated on it. In Malta my first daughter was born.", 
+                    stars: 1,
+                    order: 80, 
+                    place:"Valleta",
+                    year:"2001", 
+                    code:"MAL",
+                }
+                ,
+                { 
+                    title:"HSBC Greece", 
+                    subtitle:"Data Migration, Change Management, Risk Management, Cultural challenges.",                    
+                   
+                    level:"Excellent", 
+                    description:"This project involved the migration from a Barclays operation in Greece into the HSBC fold. So, some data migration, together with some issues derived from both Y2K and incoming EUR.", 
+                    stars: 1,
+                    order: 70, 
+                    place:"Athens",
+                    year:"2001", 
+                    code:"ATH",
+                }
+            ]
+        },
        
 
     ]

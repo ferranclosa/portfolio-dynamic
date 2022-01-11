@@ -7,7 +7,8 @@ const mains = [
         spannedWord: "Closa Cervera", 
         subtitle: "Enterprise Architect, Microservices, Web, Full-Stack development, Trainer",
         description: "Welcome to my website. I am currently employed, but I am actively looking for other options and open to offers. As you will see my profile is somewhat heterodox, but in my case, this is what brings richness and lateral thinking to the projects I participate in.",
-        objectives: "I'm interested in Data Migration, Transfomation projects from Monolith to more distributed systems. I will also consider projects requiring Java, React and Python developer skills",
+        objectives: `I'm interested in Data Migration, Transfomation projects from Monolith to more distributed systems. 
+        I will also consider projects requiring Java, React and Python developer skills`,
   
         ceo: "CEO of erronea.eu"
     }, 
@@ -16,9 +17,9 @@ const mains = [
         title: "Ferran Closa Cervera",
         firstWord: "Ferran ", 
         spannedWord: "Closa Cervera", 
-        subtitle: "Arquitecto Informatico de Empresas, Specialista en Microservicios, web, Tecnologias Front y Back end, Educador",
-        description: "Bienvenido a mi página Web. Estoy corrientemente empleado, pero estoy activamente buscando otras opciones y abierto a ofertas. Como veréis mi perfil es algo heterodoxo, pero en mi caso, esto es lo que aporta riqueza y visión lateral.",
-        objectives: "Estoy interesado en proyectos de Migracion de datos, Transformacion de sistemas Monolitos hacia Architecturas mas distribuidas. Tambien considero proyectos como dessarrolador Java, React y Python",
+        subtitle: "Arquitecto informático de Empresas, Especialista en Microservicios, web, Tecnologías ‘Front and Back end’, Educador",
+        description: "Bienvenido a mi página Web. Estoy actualmente trabajando, pero estoy activamente buscando otras opciones y abierto a ofertas. Como veréis mi perfil es algo heterodoxo, pero en mi caso, esto es lo que aporta riqueza y pensamiento lateral",
+        objectives: "Estoy interesado en proyectos de Migración de datos, Transformación de sistemas monolitos hacia Arquitecturas más distribuidas. También considero proyectos como desarrollador Java, React y Python",
         ceo: "CEO de erronea.eu"
     }, 
     {

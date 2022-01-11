@@ -4,13 +4,13 @@ const perso = [
         title: "Ferran Closa Cervera",
         firstWord: "quien ",
         spannedWord: "Soy",
-        intro: "Hola, soy Ferran. Espero poder ofrecer una pequena vision de mi persona y que esto le ayude a tomar una decision sobre su relacion conmigo.",
+        intro: "Hola, soy Ferran. Espero poder ofrecer una pequeña visión de mi persona y que esto os ayude a tomar una decisión sobre una hipotética relación profesional conmigo.",
         details: [
             { title: "Español", description: "Esto fue un accidente, pero uno afortunado. He vivido una gran parte de mi vida en otros lugares, pero mi casa sigue siendo mi tierra, mi gente y mis lugares." },
-            { title: "Musico", description: "De pequeño, muy pronto, tuve una votación hacia la música y el violín. Esta capacidad de vocación ha quedado incrustada en mi personalidad" },
-            { title: "Informatico", description: "Otro afortunado accidente. Lo que me atrajo, en principio fue la curiosidad y pronto, las capacidades creativas que le son associadas, como el hecho de crear algo a partir de una idea, sin mas misterios que la adopcion y combinacion de diferentes algoritmos. Esta es la faceta de my trabajo con la que mas disfruto y que me aporta mas satisfacion." },
-            { title: "Padre", description: "No exactamente un accidente, pero sea lo que fuere, el mas feliz de los episodios de my existencia. Devenir padre debe de ser lo que menos esfuerzo require, pero ser uno de bueno, eso ya es otro cantar. La informatica, a su lado, es pan comido. Tengo tres hijas y un hijastro, por aquello de los tumbos que damos en la vida" },
-            { title: "Amigos", description: "Soy hombre de pocos amigos, en el sentido literal de la expresión, pero los que tengo, no hay de mejores. A los amigos uno los escoge, es una relación de libertad que puede estar ausente en las relaciones impuestas, y esta libertad es maravillosa" },
+            { title: "Músico", description: "De pequeño, muy pronto, tuve una vocación hacia la música y el violín. Esta capacidad de vocación ha quedado incrustada en mi personalidad" },
+            { title: "Informático", description: "Otro afortunado accidente. Lo que me atrajo, en principio fue la curiosidad y pronto, las capacidades creativas que le son asociadas, como el hecho de crear algo a partir de una idea, sin más misterios que la adopción y combinación de diferentes algoritmos. Esta es la faceta de mi trabajo con la que más disfruto y la que me aporta más satisfacción." },
+            { title: "Padre", description: "No exactamente un accidente, pero sea lo que fuere, el más feliz de los episodios de mi existencia. Devenir padre debe de ser lo que menos esfuerzo requiere, pero ser uno de bueno, eso ya es otro cantar. La informática, a su lado, es pan comido. Tengo tres hijas y un hijastro, por aquello de los tumbos que damos en la vida" },
+            { title: "Amigos", description: "Smoy hobre de pocos amigos, en el sentido literal de la expresión, pero los que tengo, no hay de mejores. A los amigos uno los escoge, es una relación de libertad que puede estar ausente en las relaciones impuestas, y esta libertad es maravillosa" },
             { title: "Curioso", description: "La curiosidad es uno de mis vicios. Todo me interesa. Me gusta aprender, buscar y disfruto de los saltos que provoca el descubrir algo que no sabias. Las fronteras de mi ignorancia son mi terreno inexplorado, mi espacio, mis Américas." },
 
         ]
