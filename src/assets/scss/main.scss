@@ -481,11 +481,12 @@ main {
   .portrait {
     width: 500px;
     height: 500px;
-    background-image: url("../img/Ferran Aug 2021.jpg");
-    background-repeat: no-repeat;
+    background-image: url("../img/Ferran_guaperas.jfif");
+    // background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    border-radius: 45px ;
+    // background-size: contain;
+    border-radius: 50px 50px;
+    object-fit: contain;
   }
   .welcome {
     font-size: 1.5rem;

@@ -7,7 +7,7 @@ const projectdata =
             firstWord:"",
             spannedWord:"Projects",
             lastWord:"I’ve enjoyed",
-            intro:"This is a sample of IT projects, most of them involving big complexity. All of them with successful outcome, I have provided my personal take of each project, as , globally, they have been extremely useful experiences. Note that these projects tend to be large corporate projects",
+            intro:"This is a sample of IT projects, most of them involving big complexity. I have provided my personal take from each project as, globally, they have been extremely useful experiences. Note that these projects tend to be large corporate projects, which means that there was a large team involved, although I was always making some difference in a positive way",
             details: [
                 {
                     title:"IT Modernisation programme",
@@ -16,6 +16,7 @@ const projectdata =
                     year:"2014", 
                     code:"ITM",
                     description:"This project consists on the review and implementation of all our systems to ensure that they are ready for the Digital Era. This means moving out of legacy systems and platforms into more distributed and API aware systems. This is where Microservices become relevant, as well as the Channels stream where we integrate solutions with customers and open secure channels",
+                    role : ` `, 
                     stars: 6,
                     order: 10
                 },
@@ -25,6 +26,7 @@ const projectdata =
                     place:"Paris",
                     year:"2007", 
                     code:"FUS",
+                    role : ` `, 
                     description:"This project involved a change on the HSBC legal entity from an Member of the Group HSBC to being HSBC France. There was both a massive data migration project, but also the impact on the customers, as all contracts and accounts had to be re-created under the newfinancial institution",
                     stars: 2,
                     order: 20
@@ -36,6 +38,7 @@ const projectdata =
                     year:"2006", 
                     code:"CCF",
                     description: `This was a Data Migration project. This was also the largest of the kind within HSBC. 2.6 million customers were migrated from CCF to HSBC in Franc on a single weekend.`,
+                    role : ` `, 
                     stars: 2,
                     order: 20
                 },
@@ -44,6 +47,7 @@ const projectdata =
                     subtitle:"Data Migration, Change Management, Risk Management",                    
                     level:"Excellent", 
                     description:"This was a Data Migration project, which was executed using robots, which via scripts, they simulated data capture and automated BAU exception handling. This approach was decided based on the small customer number (< 8K)", 
+                    role : ` `, 
                     stars: 5,
                     order: 30, 
                     place:"Paris",
@@ -57,6 +61,7 @@ const projectdata =
                     description:`This project thaught me a lesson. On the dangers of overconfidence. This project was a follow-up to the Banque de Picardie project, 
                             and there were incorrectly placed assumptions, that led to wrong decisions. The type of customer was very diffrent, as well as the product offering. 
                             At the end, everything was fine, but they were some difficult times following an implementation with plenty of errors.`, 
+                            role : ` `, 
                     stars: 1,
                     order: 40, 
                     place:"Paris",
@@ -69,6 +74,7 @@ const projectdata =
                     subtitle:"Data Migration, Change Management, Risk Management, This was the first of a chain of migrations for the Groupe CCF in France",                    
                     level:"Excellent", 
                     description:"Here, as it was the first one of many, I had to first adapt to French corporate culture, including learning the language, and then slowly but surely 'sell' my capabilities until they accepted me as one that could help them deliver what we had to deliver", 
+                    role : ` `, 
                     stars: 1,
                     order: 50, 
                     place:"Amiens",
@@ -82,6 +88,7 @@ const projectdata =
                     description:`Both Migrating data into a Core Banking System and implementing the change of the Turkish Lira, 
                         where last three zeros where dropped from the currency, During my stay, in Istambul, a terrorist attack against 
                         HSBC and the UK participation in the Irak war, stopped the project, and I was transferred back to London.`, 
+                        role : ` `, 
                     stars: 1,
                     order: 100, 
                     place:"Istambul",
@@ -93,6 +100,7 @@ const projectdata =
                     subtitle:"Data Migration, Change Management, Risk Management, Cultural challenges.",                    
                     level:"Excellent", 
                     description:"Following the acquisition of the biggest bank in Malta, A poject was initiated to move to HSBC systems. This was my first large project abroad, and I, personally still feel a strong attachment and connection with that project and all that it represented for the team members that participated on it. In Malta my first daughter was born.", 
+                    role : ` `, 
                     stars: 1,
                     order: 80, 
                     place:"Valleta",
@@ -101,11 +109,25 @@ const projectdata =
                 }
                 ,
                 { 
+                    title:"Forbes UK", 
+                    subtitle:"Creation of Distance and Online Courses",                    
+                    level:"Excellent", 
+                    description:"This project was something special: On my own initiative, I devised a system initially to automate test scorings, and then using Visual Basic and Office, automate the registration and enrolment process, followed by the creation of the learning material and the follow up of the assignments for the distance learning students. It was implemented by Forbes and it became the first Online and Distance learning center in the UK.", 
+                    role : ` `, 
+                    stars: 4,
+                    order: 120, 
+                    place:"London",
+                    year:"1996-1997", 
+                    code:"LON",
+                }
+                ,
+                { 
                     title:"HSBC Greece", 
                     subtitle:"Data Migration, Change Management, Risk Management, Cultural challenges.",                    
                    
                     level:"Excellent", 
                     description:"This project involved the migration from a Barclays operation in Greece into the HSBC fold. So, some data migration, together with some issues derived from both Y2K and incoming EUR.", 
+                    role : ` `, 
                     stars: 1,
                     order: 70, 
                     place:"Athens",
@@ -156,7 +178,6 @@ const projectdata =
                 { 
                     title:"Union Bancaire de Paris", 
                     subTitle :"Data Migration, Change Management, Risk Management, Ce fut la deuxième d’une chaîne de migrations pour le Groupe CCF en France.",                    
-                
                     niveau:"Excellent", 
                     description:"Apprendre leasson, cela m’a beaucoup attiré en ce qui concerne l’excès de confiance. Ce projet faisait suite au projet de la Banque de Picardie, et il y avait des hypothèses mal placées, qui ont conduit à de mauvaises décisions. Le type de client était très différent, ainsi que l’offre de produits. À la fin, tout allait bien, mais c’était des moments difficiles.",
                     stars: 1,
