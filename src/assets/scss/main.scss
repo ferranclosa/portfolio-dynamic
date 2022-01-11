@@ -480,6 +480,32 @@ main {
     }
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  .portrait {
+    width: auto;
+    height: 500px;
+    background-image: url("../img/Ferran Aug 2021.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px ;
+  }
+  .welcome {
+    // flex: 1, 0, 60%;
+    font-size: 1.5rem;
+    padding-left: 20px;
+  }
+
+  p {
+    width: 100%;
+  }
+}
+
 }
 
 @media (min-width: 500) {

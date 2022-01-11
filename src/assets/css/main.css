@@ -628,6 +628,29 @@ main#home {
     margin-top: 1rem;
     border-bottom: #fcc62d 5px solid;
   }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+  }
+  .container .portrait {
+    width: auto;
+    height: 500px;
+    background-image: url("../img/Ferran Aug 2021.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+  }
+  .container .welcome {
+    font-size: 1.5rem;
+    padding-left: 20px;
+  }
+  .container p {
+    width: 100%;
+  }
 }
 @media (min-width: 500) {
   .hidden {
