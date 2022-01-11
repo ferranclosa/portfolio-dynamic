@@ -9,8 +9,10 @@ const Navbar = (props) => {
 
     let navigate = useNavigate()
 
+    // const {language } = props
 
-    const [language, setLanguage] = useState(props.language)
+
+   const [language, setLanguage] = useState(props.language)
     const [langMenu, setLangMenu] = useState({})
     const [menu, setMenu] = useState({})
 
@@ -55,7 +57,7 @@ const Navbar = (props) => {
 
     const handleEnglish = () => {
         setLanguage('en')
-        navigate('/')
+        navigate('/main/en')
     }
 
     const handleProfesional = () => {

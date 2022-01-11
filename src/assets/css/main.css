@@ -351,24 +351,6 @@ main#home {
   grid-area: bio;
   font-size: 1.5rem;
 }
-.contact-info .job-1 {
-  grid-area: job1;
-}
-.contact-info .job-2 {
-  grid-area: job2;
-}
-.contact-info .job-3 {
-  grid-area: job3;
-}
-.contact-info .job-4 {
-  grid-area: job4;
-}
-.contact-info .job-5 {
-  grid-area: job5;
-}
-.contact-info .job-6 {
-  grid-area: job6;
-}
 .contact-info .job {
   background: #253448;
   padding: 0.5rem;
@@ -516,7 +498,7 @@ main#home {
 }
 .container .portrait {
   width: 500px;
-  height: 500px;
+  height: auto;
   background-image: url("../img/Ferran Aug 2021.jpg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -708,16 +690,16 @@ main#home {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    justify-content: space-between;
+    align-items: center;
   }
   .container .portrait {
-    width: auto;
+    width: 500px;
     height: 500px;
     background-image: url("../img/Ferran Aug 2021.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    border-radius: 10px;
+    border-radius: 45px;
   }
   .container .welcome {
     font-size: 1.5rem;
@@ -820,6 +802,7 @@ nav {
   display: none;
   position: absolute;
   right: 0px;
+  top: 52px;
   background-color: #fcc62d;
   min-width: fit-content;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);

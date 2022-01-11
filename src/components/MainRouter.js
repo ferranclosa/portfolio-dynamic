@@ -19,12 +19,13 @@ const MainRouter = () => {
   return (
     <div>
     <Router>
-      <Navbar language = "en"/>
+      <Navbar language = "sp"/>
         <Routes>
-          <Route path={'/main/sp', '/'} element={<MainLanding language="sp" />} />
+          <Route exact path={"/"} element={<MainLanding language="sp" />} />
           <Route exact path={'/main/ca'} element={<MainLanding language="ca"  />} />
           <Route exact path={'/main/en'} element={<MainLanding language="en"  />} />
           <Route exact path={'/main/fr'} element={<MainLanding language="fr"  />} />
+          <Route exact path={'/main/sp'} element={<MainLanding language="sp"  />} />
          
 
           <Route exact path={'/personal/sp'} element={<About language="sp"  />} />

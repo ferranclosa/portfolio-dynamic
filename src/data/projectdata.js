@@ -251,7 +251,7 @@ const projectdata =
                     subtitle:"Change Management, Data merging and Migration, Rationalisation of resources, Geographical dysplace",                    
                     place:"Paris",
                     year:"2006", 
-                    code:"FUS",
+                    code:"CCF",
                     description: `This was a Data Migration project. This was also the largest of the kind within HSBC. 2.6 million customers were migrated from CCF to HSBC in Franc on a single weekend.`,
                     stars: 2,
                     order: 20
