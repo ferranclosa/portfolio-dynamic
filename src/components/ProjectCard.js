@@ -19,6 +19,7 @@ import bleus from 'assets/img/bleus.jfif'
 import istambul from 'assets/img/Istambul.jpg'
 import london from 'assets/img/London.jpg'
 import athens from 'assets/img/Athens.jpg'
+import commerce from 'assets/img/bourse_de_commerce.jpg'
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -61,9 +62,12 @@ const ProjectCard = (props) => {
         return athens
       case 'MAL':
         return malta
+      case 'CCF':
+        return commerce
+
       default:
         return null
-   
+
     }
   }
 

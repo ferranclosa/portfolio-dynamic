@@ -86,12 +86,26 @@ const skillsdata =
             Esto me ha facilitado los muchos aprendizajes que he emprendido y sigo emprendiendo. Disfruto creando y aportando soluciones a situaciones que las necesitan. `,
             details: [
                 {
+                    title: "Arquitecto de Empresas",
+                    level: "Nivel : Excelente",
+                    description: `Como Arquitecto de Empresa, mi rol es para el sector de Banca Comercial. Nuestros productos y mercados evolucionan y ello conlleva de constantes adaptaciones que necesitan de un análisis, estudio y propuesta de plan de acción. Estoy en el proceso de Certificación TOGAF  `,
+                    stars: 5,
+                    order: 0
+                }, 
+                {
+                    title: "Arquitecto de Soluciones",
+                    level: "Nivel : Excelente",
+                    description: `Como Arquitecto de Soluciones, mi rol consistía a analizar y proponer soluciones a casos presentados por la Empresa. Normalmente, el alcance y sus límites son fácilmente identificados. Los intercambios entre la solución y el entorno estaban limitados a API y intercambio de ficheros. En este contexto, aprendí mucho sobre Control M, Procesos en paquete (Batch), Análisis y optimización de rendimientos, SOAP y negociación con usuarios.  `,
+                    stars: 4,
+                    order: 2
+                }, 
+               {
                     title: "Gestión de proyectos",
                     level: "Nivel : Bueno",
                     description: `He aprendido y trabajado en las diferentes metodologías como SDLC (Software Development Life Cycle) y Agile, así como con las herramientas utilizadas en este oficio. Destaco en la gestión de equipos, la motivación y la ruptura de aislamientos. Tengo mucha experiencia en el terreno de las dependencias entre proyectos, y en la creación e identificación del camino critico (critical path) de un proyecto. Soy capaz de ponerme en el rol de Project Manager, pero no es vocacional.`,
                     stars: 2,
                     order: 5
-                },
+                }, 
                 { 
                     title: "Microservicios & API", 
                     level: "Nivel : Excelente", 
@@ -124,7 +138,7 @@ const skillsdata =
                     order: 8
                 }, 
                 { 
-                    title: "Languages", 
+                    title: "Lenguas", 
                     level: "Nivel : Muy Fluido", 
                     description: "El inglés es el idioma en el que pienso cuando pienso en trabajo. La razón es simple: todo lo que he aprendido de informática, lo he aprendido en inglés. El francés, por el hecho de haber trabajado en Paris los últimos 20 años. Soy catalán y español por nacimiento. Mi capacidad de comunicación en cualquiera de estas cuatro lenguas es absoluta. ", 
                     stars: 4,

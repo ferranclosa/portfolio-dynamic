@@ -29,6 +29,16 @@ const projectdata =
                     stars: 2,
                     order: 20
                 },
+                {
+                    title:"Centre Commercial de France - HSBC",
+                    subtitle:"Change Management, Data merging and Migration, Big Bang Migration",                    
+                    place:"Paris",
+                    year:"2006", 
+                    code:"CCF",
+                    description: `This was a Data Migration project. This was also the largest of the kind within HSBC. 2.6 million customers were migrated from CCF to HSBC in Franc on a single weekend.`,
+                    stars: 2,
+                    order: 20
+                },
                 { 
                     title:"Banque Hervé", 
                     subtitle:"Data Migration, Change Management, Risk Management",                    
@@ -233,6 +243,16 @@ const projectdata =
                     year:"2007", 
                     code:"FUS",
                     description:"This project involved a change on the HSBC legal entity from an Member of the Group HSBC to being HSBC France. There was both a massive data migration project, but also the impact on the customers, as all contracts and accounts had to be re-created under the newfinancial institution",
+                    stars: 2,
+                    order: 20
+                },
+                {
+                    title:"Centre Commercial de France - HSBC",
+                    subtitle:"Change Management, Data merging and Migration, Rationalisation of resources, Geographical dysplace",                    
+                    place:"Paris",
+                    year:"2006", 
+                    code:"FUS",
+                    description: `This was a Data Migration project. This was also the largest of the kind within HSBC. 2.6 million customers were migrated from CCF to HSBC in Franc on a single weekend.`,
                     stars: 2,
                     order: 20
                 },
