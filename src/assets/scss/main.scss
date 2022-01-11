@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "Form";
 @import "accordion";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
@@ -82,6 +83,20 @@ main {
 
   &#home {
     overflow: hidden;
+  }
+}
+
+.basic-form-container{
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  // justify-content: space-between;
+  
+  .basic-form-item{
+    width: 40%;
+    margin: 40px;
+
   }
 }
 
@@ -496,7 +511,6 @@ main {
     border-radius: 10px ;
   }
   .welcome {
-    // flex: 1, 0, 60%;
     font-size: 1.5rem;
     padding-left: 20px;
   }
@@ -610,6 +624,7 @@ nav {
   z-index: 1;
 }
 
+
 /* Links inside the dropdown */
 .dropdown-content a {
   color: $primary-color;
@@ -624,6 +639,8 @@ nav {
 .dropdown-content a:hover {
   background-color: #ddd;
 }
+
+
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {

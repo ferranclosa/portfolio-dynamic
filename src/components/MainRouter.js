@@ -10,6 +10,7 @@ import Projects from 'pages/Projects'
 import Contact from 'pages/Contact';
 import TimeLine from 'pages/TimeLine';
 import Navbar from './Navbar';
+import FormData from 'pages/FormData';
 import NotImplemented from 'pages/NotImplemented';
 
 
@@ -55,6 +56,7 @@ const MainRouter = () => {
           <Route exact path={'/timeline/en'} element={<TimeLine language="en"  />} />
           <Route exact path={'/timeline/ca'} element={<TimeLine language="ca"  />} />
           <Route exact path={'/timeline/fr'} element={<TimeLine language="fr"  />} />
+          <Route exact path={'/data/en'} element={<FormData language='en' />} />
 
 
           <Route element={ <NotImplemented  />} />

@@ -35,16 +35,10 @@ const MainLanding = (props) => {
                 <h2 className="sm-heading">
                     {main.subtitle}
                 </h2>
-                {/* <h2 className="sm-heading">{main.ceo} &nbsp; &nbsp; &nbsp;
-                    <span><img src={image} alt="erronea" /></span>
-                </h2> */}
-
+           
                 <div className="container">
                     <div className="portrait">
-
                     </div>
-
-
                     <div className="welcome">
                         <p>
                             {main.description}

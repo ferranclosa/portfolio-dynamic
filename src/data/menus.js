@@ -7,7 +7,8 @@ const menus =
             contact: "Contacto", 
             skills: "Habilidades", 
             projects: "Proyectos", 
-            timel: "Cronología"
+            timel: "Cronología", 
+            capture: "Data"
         },
         {
             language: "en",
@@ -16,7 +17,8 @@ const menus =
             contact: "Contact", 
             skills: "Skills", 
             projects: "Projects",
-            timel: 'Timeline'
+            timel: 'Timeline', 
+            capture: "Data"
 
         },
         {
@@ -26,7 +28,8 @@ const menus =
             contact: "Contacte", 
             skills: "Habilitats", 
             projects: "Projectes", 
-            timel: 'Cronologia'
+            timel: 'Cronologia', 
+            capture: "Data"
         },
         {
             language: "fr",
@@ -37,7 +40,8 @@ const menus =
             contact: "Contact", 
             skills: "Compétences", 
             projects: "Projets", 
-            timel: "Chronologie"
+            timel: "Chronologie", 
+            capture: "Data"
         }
     ]
 

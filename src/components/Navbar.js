@@ -22,7 +22,13 @@ const Navbar = (props) => {
         menus.filter((one => one.language === language))
             .map((one => {
                 setMenu({
-                    profes: one.profes, perso: one.perso, contact: one.contact, skills: one.skills, projects: one.projects, timel: one.timel
+                    profes: one.profes, 
+                    perso: one.perso, 
+                    contact: one.contact, 
+                    skills: one.skills, 
+                    projects: one.projects, 
+                    timel: one.timel, 
+                    capture: one.capture
                 })
 
             }))
@@ -170,6 +176,25 @@ const Navbar = (props) => {
         }
     }
 
+    const handleCapture = () => {
+        switch (language) {
+            case 'en':
+                navigate('/data/en')
+                break;
+            case 'sp':
+                navigate('/data/sp')
+                break
+            case 'ca':
+                navigate('/data/ca')
+                break
+            case 'fr':
+                navigate('/data/fr')
+                break
+            default:
+                break;
+        }
+    }
+
     return (
         <div>
             <nav>
@@ -193,12 +218,11 @@ const Navbar = (props) => {
                     <div className="dropdown-content">
                         {menu.profes !== undefined ? <a onClick={handleProfesional}>{menu.profes}</a> : null}
                         {menu.perso !== undefined ? <a onClick={handlePersonal}>{menu.perso}</a> : null}
-
                         {menu.skills !== undefined ? <a onClick={handleSkills}>{menu.skills}</a> : null}
                         {menu.projects !== undefined ? <a onClick={handleProjects}>{menu.projects}</a> : null}
                         {menu.contact !== undefined ? <a onClick={handleContact}>{menu.contact}</a> : null}
                         {menu.timel !== undefined ? <a onClick={handleTimeLine}>{menu.timel}</a> : null}
-
+                        {menu.capture !== undefined ? <a onClick={handleCapture}>{menu.capture}</a> : null}
                     </div>
                 </div>
             </nav>
