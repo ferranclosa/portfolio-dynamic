@@ -2,7 +2,7 @@
 @import "menu";
 @import "accordion";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 * {
   margin: 0;
@@ -24,7 +24,7 @@ body {
   height: 100%;
   margin: 0;
   // font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-family: 'Montserrat',  sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5;
 }
 
@@ -64,7 +64,7 @@ header {
 
 main {
   padding: 4rem;
- 
+
   min-height: calc(100vh - 60px);
 
   .icons {
@@ -154,15 +154,12 @@ main {
       @include easeOut;
     }
   }
- 
 }
 
-
-.MuiCardMedia-img{
-  object-fit: cover  !important;
+.MuiCardMedia-img {
+  object-fit: cover !important;
 }
 .about-container {
-  
   .about-intro {
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -184,7 +181,6 @@ main {
     }
   }
 }
-
 
 .contact-container {
   .contact-intro {
@@ -211,30 +207,23 @@ main {
   }
 }
 
-
 .project-container {
-  
   .project-intro {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
   .project-item-container {
     display: flex;
-    flex-direction: column;
-    // height: 100vh;
+    flex-direction: row;
     justify-content: space-around;
-    // align-items: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
 
     .project-item {
       background: lighten($primary-color, 5);
-      width: 90%;
+      width: 45%;
       height: auto;
-      // padding: 1rem;
       margin-top: 1rem;
-      // margin-right: 1rem;
-      // padding-bottom: 1rem;
       border-bottom: $secondary-color 5px solid;
     }
   }
@@ -302,20 +291,15 @@ main {
   display: flex;
   flex-direction: row;
   height: 100vh;
-  // align-items: top;
   justify-content: space-between;
-  .portrait{
+  .portrait {
     width: 500px;
-    height: 500px  ;
-    // border: 1px solid white; 
+    height: 500px;
     background-image: url("../img/Ferran Aug 2021.jpg");
     background-repeat: no-repeat;
-    background-size:contain;
-    border-radius: 45px ;
+    background-size: contain;
+    border-radius: 45px;
   }
-  // .icons {
-  //   flex: 0, 0 30%;
-  // }
   .welcome {
     // flex: 1, 0, 60%;
     font-size: 1.5rem;
@@ -327,7 +311,7 @@ main {
   }
 }
 
-.faq-container{
+.faq-container {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -343,9 +327,8 @@ main {
   overflow: hidden;
   transition: 0.3s ease;
   width: 30%;
-  height:auto;
+  height: auto;
 }
-
 
 .faq-title {
   font-size: 1.7rem;
@@ -355,7 +338,7 @@ main {
 .faq-text {
   display: none;
   margin: 30px 0 0;
-  color: black; 
+  color: black;
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
@@ -396,8 +379,6 @@ main {
   opacity: 1;
   writing-mode: horizontal-tb;
 }
-
-
 
 @media (max-width: 600px) {
   .hidden {
@@ -445,38 +426,59 @@ main {
     top: 5px;
     left: 60%;
   }
+
+  .faq-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .faq {
+    border: 1px solid #9fa4a8;
+    border-radius: 5px;
+    margin: 10px 0;
+
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+    width: 100%;
+    height: auto;
+  }
+
+  .faq-title {
+    font-size: 1.7rem;
+    margin: 0 35px 0 0;
+  }
+
+  .faq-text {
+    display: none;
+    margin: 30px 0 0;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
   
-.faq-container{
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
+.project-container {
+  .project-intro {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .project-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 
-.faq {
-  border: 1px solid #9fa4a8;
-  border-radius: 5px;
-  margin: 10px 0;
-
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s ease;
-  width: 100%;
-  height:auto;
-}
-
-
-.faq-title {
-  font-size: 1.7rem;
-  margin: 0 35px 0 0;
-}
-
-.faq-text {
-  display: none;
-  margin: 30px 0 0;
-  color: black; 
-  font-size: 1.2rem;
-  line-height: 1.5rem;
+    .project-item {
+      background: lighten($primary-color, 5);
+      width: 90%;
+      height: auto;
+      margin-top: 1rem;
+      border-bottom: $secondary-color 5px solid;
+    }
+  }
 }
 }
 
@@ -521,7 +523,6 @@ main {
 */
 
 nav {
-  
   background-color: $primary-light;
   display: flex;
   justify-content: space-around;
@@ -581,7 +582,6 @@ nav {
   min-width: fit-content;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
- 
 }
 
 /* Links inside the dropdown */
@@ -609,62 +609,58 @@ nav {
   background-color: $primary-light;
 }
 
-
 .MuiCard-root {
   background-color: $primary-light !important;
   color: $secondary-light !important;
   // margin-bottom: 1rem;
- 
 }
 
-.MuiCardHeader-subheader{
+.MuiCardHeader-subheader {
   color: $secondary-dark !important;
 }
 
-.MuiCardMedia-root{
+.MuiCardMedia-root {
   width: 60%;
   align-items: center;
   justify-content: center;
 }
 
-.MuiButtonBase-root{
+.MuiButtonBase-root {
   color: $secondary-dark !important;
 }
 
-.timeline-card-content{
+.timeline-card-content {
   background-color: $secondary-color !important;
-  
-  header{
+
+  header {
     background-color: $secondary-light;
     border-radius: 3px;
   }
-  a{
-    color : $primary-color;
+  a {
+    color: $primary-color;
   }
-  .card-sub-title{
-    background-color: $secondary-color; 
+  .card-sub-title {
+    background-color: $secondary-color;
     color: $primary-color;
     margin-top: 2rem;
     border-radius: 7px;
     width: 100%;
   }
-
 }
-.card-content-wrapper{
-  section{
+.card-content-wrapper {
+  section {
     min-width: 100px !important;
-  
   }
 }
 .css-16u30nb-TimelineControlContainer {
   align-items: center;
-  position: fixed; 
-  right: 90px; 
-  top:50px;
+  position: fixed;
+  right: 90px;
+  top: 50px;
   display: flex;
   justify-content: center;
   min-width: 3rem;
-  margin-bottom: 1rem;;
+  margin-bottom: 1rem;
 
   filter: opacity(0.9);
 }
@@ -674,7 +670,7 @@ nav {
   background: $secondary-color;
   border-radius: 4px;
   display: flex;
-  margin-bottom: 1rem;;
+  margin-bottom: 1rem;
   // flex-direction: row;
   -webkit-filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.2));
   filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.2));

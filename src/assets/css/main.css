@@ -368,14 +368,14 @@ main#home {
 }
 .project-container .project-item-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
   box-sizing: border-box;
 }
 .project-container .project-item-container .project-item {
   background: #253448;
-  width: 90%;
+  width: 45%;
   height: auto;
   margin-top: 1rem;
   border-bottom: #fcc62d 5px solid;
@@ -608,6 +608,25 @@ main#home {
     color: black;
     font-size: 1.2rem;
     line-height: 1.5rem;
+  }
+
+  .project-container .project-intro {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .project-container .project-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  .project-container .project-item-container .project-item {
+    background: #253448;
+    width: 90%;
+    height: auto;
+    margin-top: 1rem;
+    border-bottom: #fcc62d 5px solid;
   }
 }
 @media (min-width: 500) {
