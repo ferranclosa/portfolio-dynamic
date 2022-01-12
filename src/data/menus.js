@@ -21,28 +21,28 @@ const menus =
             capture: "Data"
 
         },
-        {
-            language: "ca",
-            profes: "Profesional",
-            perso: "Personal",
-            contact: "Contacte", 
-            skills: "Habilitats", 
-            projects: "Projectes", 
-            timel: 'Cronologia', 
-            capture: "Data"
-        },
-        {
-            language: "fr",
+        // {
+        //     language: "ca",
+        //     profes: "Profesional",
+        //     perso: "Personal",
+        //     contact: "Contacte", 
+        //     skills: "Habilitats", 
+        //     projects: "Projectes", 
+        //     timel: 'Cronologia', 
+        //     capture: "Data"
+        // },
+        // {
+        //     language: "fr",
 
 
-            profes: "Profesionel",
-            perso: "Personnel",
-            contact: "Contact", 
-            skills: "Compétences", 
-            projects: "Projets", 
-            timel: "Chronologie", 
-            capture: "Data"
-        }
+        //     profes: "Profesionel",
+        //     perso: "Personnel",
+        //     contact: "Contact", 
+        //     skills: "Compétences", 
+        //     projects: "Projets", 
+        //     timel: "Chronologie", 
+        //     capture: "Data"
+        // }
     ]
 
 
