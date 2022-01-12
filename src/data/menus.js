@@ -2,17 +2,17 @@ const menus =
     [
         {
             language: "sp",
-            profes: "Profesional",
+            profes: "Experiencia",
             perso: "Personal",
             contact: "Contacto", 
             skills: "Habilidades", 
             projects: "Proyectos", 
             timel: "Cronología", 
-            capture: "Data"
+            // capture: "Data"
         },
         {
             language: "en",
-            profes: "Profesional",
+            profes: "Experience",
             perso: "Personal",
             contact: "Contact", 
             skills: "Skills", 
