@@ -479,16 +479,19 @@ main {
   // margin: 5px;
   // justify-content: space-between;
   .portrait {
+    display: block;
     width: 500px;
-    height: 500px;
+    height: 700px; 
     background-image: url("../img/Ferran_guaperas.jfif");
-    // background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
-    // background-size: contain;
-    border-radius: 50px 50px;
-    object-fit: contain;
+    background-size: auto;
+    border-radius: 50px;
+    // object-fit: cover;
+    // margin-bottom: 12rem;
   }
   .welcome {
+    margin-top: 10px;;
     font-size: 1.5rem;
     padding-left: 20px;
   }
