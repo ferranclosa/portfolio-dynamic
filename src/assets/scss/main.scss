@@ -471,22 +471,33 @@ main {
   }
 }
 
+.portrait {
+  // display: block;
+  // width: 100%;
+  height: 100%; 
+  background-image: url("../img/Ferran_guaperas.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 50px 50px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  // height: 100vh;
   align-items: center;
   // margin: 5px;
   // justify-content: space-between;
   .portrait {
-    display: block;
-    width: 500px;
-    height: 700px; 
+    display: none;
+    width: 100%;
+    height: 100%; 
     background-image: url("../img/Ferran_guaperas.jfif");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
-    border-radius: 50px;
+    background-size: 100%;
+    border-radius: 50px 50px;
     // object-fit: cover;
     // margin-bottom: 12rem;
   }

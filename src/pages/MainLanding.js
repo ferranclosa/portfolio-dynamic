@@ -35,9 +35,11 @@ const MainLanding = (props) => {
                 <h2 className="sm-heading">
                     {main.subtitle}
                 </h2>
-           
+
+
                 <div className="container">
                     <div className="portrait">
+
                     </div>
                     <div className="welcome">
                         <p>
