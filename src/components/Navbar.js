@@ -11,8 +11,10 @@ const Navbar = (props) => {
 
     // const {language } = props
 
+    const [showL, setShowL] = useState(false)
+    const [show, setShow] = useState(true)
 
-   const [language, setLanguage] = useState(props.language)
+    const [language, setLanguage] = useState(props.language)
     const [langMenu, setLangMenu] = useState({})
     const [menu, setMenu] = useState({})
 
@@ -24,16 +26,17 @@ const Navbar = (props) => {
         menus.filter((one => one.language === language))
             .map((one => {
                 setMenu({
-                    profes: one.profes, 
-                    perso: one.perso, 
-                    contact: one.contact, 
-                    skills: one.skills, 
-                    projects: one.projects, 
-                    timel: one.timel, 
+                    profes: one.profes,
+                    perso: one.perso,
+                    contact: one.contact,
+                    skills: one.skills,
+                    projects: one.projects,
+                    timel: one.timel,
                     capture: one.capture
                 })
 
             }))
+        setShowL(!showL)
 
     }, [language])
 
@@ -77,6 +80,7 @@ const Navbar = (props) => {
             default:
                 break;
         }
+        setShow(!show)
 
     }
 
@@ -97,6 +101,7 @@ const Navbar = (props) => {
             default:
                 break;
         }
+        setShow(!show)
 
     }
 
@@ -117,6 +122,7 @@ const Navbar = (props) => {
             default:
                 break;
         }
+        setShow(!show)
 
     }
 
@@ -137,6 +143,7 @@ const Navbar = (props) => {
             default:
                 break;
         }
+        setShow(!show)
 
     }
 
@@ -157,6 +164,8 @@ const Navbar = (props) => {
             default:
                 break;
         }
+        setShow(!show)
+
     }
 
     const handleTimeLine = () => {
@@ -176,6 +185,8 @@ const Navbar = (props) => {
             default:
                 break;
         }
+        setShow(!show)
+
     }
 
     const handleCapture = () => {
@@ -195,6 +206,8 @@ const Navbar = (props) => {
             default:
                 break;
         }
+        setShow(!show)
+
     }
 
     return (
@@ -206,6 +219,7 @@ const Navbar = (props) => {
 
                 <div className="dropdown">
                     <button className="dropbtn">{langMenu.text}</button>
+                    {/* <div className={showL ? "dropdown-content dropdown-content-show" : "dropdown-content "}> */}
                     <div className="dropdown-content">
                         {langMenu.en !== undefined ? <a onClick={handleEnglish}>{langMenu.en}</a> : null}
                         {langMenu.sp !== undefined ? <a onClick={handleSpanish}>{langMenu.sp}</a> : null}
@@ -217,7 +231,9 @@ const Navbar = (props) => {
 
                 <div className="dropdown">
                     <button className="dropbtn">Menu</button>
+                    {/* <div className={show ? "dropdown-content dropdown-content-show" : "dropdown-content "}> */}
                     <div className="dropdown-content">
+                   
                         {menu.profes !== undefined ? <a onClick={handleProfesional}>{menu.profes}</a> : null}
                         {menu.perso !== undefined ? <a onClick={handlePersonal}>{menu.perso}</a> : null}
                         {menu.skills !== undefined ? <a onClick={handleSkills}>{menu.skills}</a> : null}

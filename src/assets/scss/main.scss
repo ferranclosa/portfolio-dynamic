@@ -606,6 +606,10 @@ nav {
   z-index: 1;
 }
 
+.dropdown-content-show{
+  display: block;
+}
+
 
 /* Links inside the dropdown */
 .dropdown-content a {
@@ -628,6 +632,11 @@ nav {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* Show the dropdown menu on hover */
+// .dropdown:active .dropdown-content {
+//   display: none;
+// }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
