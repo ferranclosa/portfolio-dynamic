@@ -48,7 +48,7 @@ const Contact = (props) => {
                 {contacto.firstWord} <span className="text-secondary">{contacto.spannedWord}</span> {contacto.lastWord}
             </h1>
 
-            <div className="portrait"></div>
+            {/* <div className="portrait"></div> */}
             
             <div className="contact-container">
 

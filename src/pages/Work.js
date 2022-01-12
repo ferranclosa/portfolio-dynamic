@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Rating } from '@mui/material';
 import uniqid from 'uniqid'
 
 
@@ -51,7 +52,7 @@ const Work = (props) => {
 
                             <div className="about-item" key={uniqid()}>
                                 <h3 className="text-secondary">{one.title}</h3>
-                                <h5>{one.subtitle}</h5>
+                                <h5>{one.subtitle}</h5> <span><Rating value={one.stars} readOnly></Rating></span>
                                 <p>
                                     {one.description}
                                 </p>

@@ -7,7 +7,7 @@ const mains = [
         spannedWord: "Closa Cervera", 
         subtitle: "Enterprise Architect, Microservices, Web, Full-Stack development, Trainer",
         description: "Welcome to my website. I am currently employed, but I am actively looking for other options and open to offers. As you will see my profile is somewhat heterodox, but in my case, this is what brings richness and lateral thinking to the projects I participate in.",
-        objectives: `I'm interested in Data Migration, Transfomation projects from Monolith to more distributed systems. 
+        objectives: `I'm interested in Data Migration, Transfomation projects from Monolith to more distributed systems.  
         I will also consider projects requiring Java, React and Python developer skills`,
   
         ceo: "CEO of erronea.eu"

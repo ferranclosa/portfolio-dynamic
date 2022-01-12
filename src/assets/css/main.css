@@ -405,6 +405,7 @@ main#home {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   box-sizing: border-box;
 }
 .contact-container .contact-item-container .contact-item {

@@ -9,6 +9,8 @@ import Collapse from '@mui/material/Collapse';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import { Rating } from '@mui/material';
 
 import paris from 'assets/img/Paris.jpg'
 import paris2 from 'assets/img/Paris2.jfif'
@@ -34,7 +36,7 @@ const ExpandMore = styled((props) => {
 
 const ProjectCard = (props) => {
 
-  let { subtitle, year, description, place, stars, code, title } = props
+  let { subtitle, year, description, place, stars, code, title, role } = props
 
   const [expanded, setExpanded] = React.useState(false);
 
@@ -88,6 +90,10 @@ const ProjectCard = (props) => {
       />
 
       <CardActions disableSpacing>
+        <Rating name="read-only" value={stars} readOnly />
+        {/* <Typography paragraph> */}
+          {  role}
+        {/* </Typography> */}
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}

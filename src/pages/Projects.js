@@ -26,6 +26,7 @@ const Projects = (props) => {
                 setProject({
                     firstWord: one.firstWord,
                     spannedWord: one.spannedWord,
+                    lastWord: one.lastWord,
                     intro: one.intro,
                     details: one.details
                 })
@@ -38,7 +39,7 @@ const Projects = (props) => {
 
         <main id="project">
             <h1 className="lg-heading">
-                {project.firstWord} <span className="text-secondary">{project.spannedWord}</span>
+               {project.firstWord} <span className="text-secondary">{project.spannedWord}</span> {project.lastWord}
             </h1>
 
             <div className="project-container">
@@ -64,6 +65,7 @@ const Projects = (props) => {
                                 code={one.code}
                                 description={one.description}
                                 stars={one.stars}
+                                role={one.role}
 
                             />
                         )))

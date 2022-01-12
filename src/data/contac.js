@@ -18,7 +18,7 @@ const contac = [
     firstWord: "como  ",
     spannedWord: "Contactar",
     lastWord: "me", 
-    intro: "Por favor, utilize estos detalles solo para fines profesionales",
+    intro: "Por favor, utilice estos detalles solo para fines profesionales",
     details: [
         { means: "email", mean: "ferranclosa@gmail.com" , url:"mailto: ferranclosa@gmail.com"},
         { means: "github", mean: "github/ferranclosa", url:"https://github.com/ferranclosa" },
