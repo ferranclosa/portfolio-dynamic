@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Rating } from '@mui/material';
+import Rating  from '@mui/material/Rating';
 import uniqid from 'uniqid'
 
 
