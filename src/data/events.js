@@ -114,6 +114,7 @@ const events
       {
         when: "January, 1962",
         where: "Terrassa, Barcelona",
+        type: "LIVE",
         header: "Nacimiento",
         url: "https://www.terrassa.cat/es",
         order : 20, 
@@ -124,6 +125,7 @@ const events
       {
         when: "1970- 1981",
         where: "Barcelona",
+        type: "EDUC",
         header: "Studios de Musica y Violin. Graduación",
         order : 22, 
         url: "https://ajuntament.barcelona.cat/conservatori/es",
@@ -132,6 +134,7 @@ const events
       },
       {
         when: "June, 1983",
+        type: "MUSI",
         where: "Sevilla",
         header: "Violinista, Orquesta Sinfónica de Sevilla",
         order : 33, 
@@ -142,6 +145,7 @@ const events
       {
         when: "June, 1984",
         where: "Mataro, Barcelona",
+        type: "MUSI",
         order : 44, 
         header: "Profesor de Violín, Conservatorio Liceu Mataro, Barcelona",
         url: "https://www.conservatoriliceu.es/escoles/vinculades/escola-de-musica-liceu-mataro/",
@@ -154,12 +158,14 @@ const events
         order : 55, 
         header: "Violinista, Orquesta Sinfónica del Vallés, Sabadell",
         url: "http://www.osvalles.com/es",
+        type: "MUSI",
         description:
           'Una orquesta de nueva creación brindó oportunidades. Esto comenzó un período en mi vida en el que fui a la vez un musicien y un profesor de música',
       },
       {
         when: "1992",
         where: "Londres, Inglaterra",
+        type: "TRAV",
         order : 66, 
         header: "The Mistery, and move to London",
         url: "https://www.enthealth.org/conditions/cholesteatoma/",
@@ -171,12 +177,14 @@ const events
         where: "Londres, Inglaterra",
         order : 77, 
         header: "IT Student, London",
+        type: "EDUC",
         url: "http://www.osvalles.com/es",
         description: `Decidí invertir en aprender un lenguaje de programación, como COBOL, RPG, Object Pascal y Visual Basic, con la esperanza de encontrar un trabajo.  `
       },
       {
         when: "1994-1997",
         where: "Londres, Inglaterra",
+        type: "TRAIN",
         order : 88, 
         header: "IT Trainer, Forbes UK, London",
         url: "http://www.forbes.com/es",
@@ -189,6 +197,7 @@ const events
         when: "1998-2007",
         where: "Londres, Malta, Atenas, Istanbul, Vancouver, Bermuda, Madrid",
         order : 99, 
+        type: "DEVE",
         header: "Software Developper, HSBC UK, London",
         url: "https://www.hsbc.co.uk/",
         description: `Fui cazado por uno de mis estudiantes anteriores en Forbes. Comenzó como un desarrollador, ascendiendo en la escalera a puestos cada vez más altos.    `
@@ -198,6 +207,7 @@ const events
         when: "2007- now",
         where: "Paris, Francia",
         order : 100, 
+        type: "ARCH",
         header: "Commercial Banking Architecte, HSBC FR, Paris",
         url: "https://www.hsbc.fr/",
         description: `'En Francia llegué de HSBC UK, como experto en ETL y después de una estancia de 5 años en Francia como expatriado, me ofrecieron un puesto como experto en sistemas de HSBC y 

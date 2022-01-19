@@ -219,7 +219,6 @@ const Navbar = (props) => {
 
                 <div className="dropdown">
                     <button className="dropbtn">{langMenu.text}</button>
-                    {/* <div className={showL ? "dropdown-content dropdown-content-show" : "dropdown-content "}> */}
                     <div className="dropdown-content">
                         {langMenu.en !== undefined ? <a onClick={handleEnglish}>{langMenu.en}</a> : null}
                         {langMenu.sp !== undefined ? <a onClick={handleSpanish}>{langMenu.sp}</a> : null}
@@ -229,11 +228,9 @@ const Navbar = (props) => {
                     </div>
                 </div>
 
-                <div className="dropdown">
+                <div className="dropdown dropdown-tabs">
                     <button className="dropbtn">Menu</button>
-                    {/* <div className={show ? "dropdown-content dropdown-content-show" : "dropdown-content "}> */}
                     <div className="dropdown-content">
-                   
                         {menu.profes !== undefined ? <a onClick={handleProfesional}>{menu.profes}</a> : null}
                         {menu.perso !== undefined ? <a onClick={handlePersonal}>{menu.perso}</a> : null}
                         {menu.skills !== undefined ? <a onClick={handleSkills}>{menu.skills}</a> : null}

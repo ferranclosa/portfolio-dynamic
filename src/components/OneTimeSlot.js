@@ -54,7 +54,7 @@ const OneTimeSlot = (props) => {
                     <>
                         <div className="date_box_l"
                         >
-                            {/* <a href={url} target="_blank"> <WebIcon></WebIcon> </a> */}
+                      
                             <p>{when}</p>
                             <DateRangeIcon />
                         </div >
@@ -62,9 +62,9 @@ const OneTimeSlot = (props) => {
                         <div className='separator'>
                             <div className='connector_line' />
                             <div className='connector_icon'>
-                                <ArrowForwardIcon />
-
+                               
                                 {provideIcon(type)}
+                                <ArrowForwardIcon />
                             </div>
                             <div className='connector_line' />
 
@@ -101,8 +101,6 @@ const OneTimeSlot = (props) => {
                             className="date_box_r">
                             <DateRangeIcon />
                             <p>{when}</p>
-
-                            {/* <a href={url} target="_blank"> <WebIcon></WebIcon> </a> */}
                         </div>
                     </>
                 }
