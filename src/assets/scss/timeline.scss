@@ -88,9 +88,9 @@
   
   .date_box_l > svg{
     margin-right: 10px;
-    background-color: $primary-light;
-    color: $secondary-color;
-    border-radius: 50px;
+    background-color: $primary-color;
+    color: $secondary-light;
+  
   }
   
   .date_box_r{
@@ -107,8 +107,8 @@
   
   .date_box_r > svg{
     margin-left: 10px;
-    background-color: $primary-light;
-    color: $secondary-color;
+    background-color: $primary-color;
+    color: $secondary-light;
 
   }
   
@@ -131,13 +131,11 @@
       display: flex;
       border-style: solid;
       border-width: 2px;
-      // border : 1px solid salmon;
       padding: 4px;
-      border-radius: 50%;
       box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
       margin: 11.5px 0;
       border-color: transparent;
-    
+      color: $secondary-color; 
      
   }
   
@@ -150,8 +148,7 @@
       flex-shrink: 0;
       transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
       font-size: 1.5rem;
-      // background-color: $primary-light;
-      // color: $secondary-color;
+    
   }
   
   @media (max-width: 600px) {

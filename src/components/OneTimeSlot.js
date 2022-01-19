@@ -8,10 +8,12 @@ import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 import CastForEducationIcon from '@mui/icons-material/CastForEducation';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import ArchitectureIcon from '@mui/icons-material/Architecture';
+
 import DateRangeIcon from '@mui/icons-material/DateRange';
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import WebIcon from '@mui/icons-material/Web';
 
 
 
@@ -43,7 +45,7 @@ const OneTimeSlot = (props) => {
         }
     }
 
-    let { header, when, description, type, align, where } = props
+    let { header, when, description, type, align, where, url } = props
 
     return (
         <>
@@ -52,6 +54,7 @@ const OneTimeSlot = (props) => {
                     <>
                         <div className="date_box_l"
                         >
+                            {/* <a href={url} target="_blank"> <WebIcon></WebIcon> </a> */}
                             <p>{when}</p>
                             <DateRangeIcon />
                         </div >
@@ -59,10 +62,10 @@ const OneTimeSlot = (props) => {
                         <div className='separator'>
                             <div className='connector_line' />
                             <div className='connector_icon'>
-                            <ArrowForwardIcon />
-                         
+                                <ArrowForwardIcon />
+
                                 {provideIcon(type)}
-                                </div>
+                            </div>
                             <div className='connector_line' />
 
                         </div>
@@ -85,12 +88,12 @@ const OneTimeSlot = (props) => {
                         </div>
 
                         <div className='separator'>
-                            
+
                             <div className='connector_line' />
                             <div className='connector_icon' >
                                 <ArrowBackIcon />
                                 {provideIcon(type)}
-                             </div>
+                            </div>
                             <div className='connector_line' />
                         </div >
 
@@ -98,6 +101,8 @@ const OneTimeSlot = (props) => {
                             className="date_box_r">
                             <DateRangeIcon />
                             <p>{when}</p>
+
+                            {/* <a href={url} target="_blank"> <WebIcon></WebIcon> </a> */}
                         </div>
                     </>
                 }
