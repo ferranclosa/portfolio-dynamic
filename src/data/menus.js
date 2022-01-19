@@ -18,7 +18,7 @@ const menus =
             skills: "Skills", 
             projects: "Projects",
             timel: 'Timeline', 
-            capture: "Data"
+            // capture: "Data"
 
         },
         // {
