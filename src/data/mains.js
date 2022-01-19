@@ -6,7 +6,7 @@ const mains = [
         firstWord: "Ferran ", 
         spannedWord: "Closa Cervera", 
         subtitle: "Enterprise Architect, Microservices, Web, Full-Stack development, Trainer",
-        description: "Welcome to my website. I am currently employed, but I am actively looking for other options and open to offers. As you will see my profile is somewhat heterodox, but in my case, this is what brings richness and lateral thinking to the projects I participate in.",
+        description: "Welcome to my website. As you will see my profile is somewhat heterodox, but in my case, this is what brings richness and lateral thinking to the projects I participate in. I'm currently participating on a pan-European project involving Germany, UK, Greece, Spain, Italy, France, Poland and others. However my motto remains 'Embrace Change' as it brings novelty and new possibilities",
         objectives: `I'm interested in Data Migration, Transfomation projects from Monolith to more distributed systems.  
         I will also consider projects requiring Java, React and Python developer skills`,
   
@@ -18,7 +18,7 @@ const mains = [
         firstWord: "Ferran ", 
         spannedWord: "Closa Cervera", 
         subtitle: "Arquitecto informático de Empresas, Especialista en Microservicios, web, Tecnologías ‘Front and Back end’, Educador",
-        description: "Bienvenido a mi página Web. Estoy actualmente trabajando, pero estoy activamente buscando otras opciones y abierto a ofertas. Como veréis mi perfil es algo heterodoxo, pero en mi caso, esto es lo que aporta riqueza y pensamiento lateral",
+        description: "Bienvenido a mi página Web. Como veréis mi perfil es algo heterodoxo, pero en mi caso, esto es lo que aporta riqueza y pensamiento lateral. En este momento estoy trabajando en un gran proyecto pan-Europeo. Mi motto es 'Embrace change' como creo que el cambio nos enriquece y nos propone possibilidades",
         objectives: "Estoy interesado en proyectos de Migración de datos, Transformación de sistemas monolitos hacia Arquitecturas más distribuidas. También considero proyectos como desarrollador Java, React y Python",
         ceo: "CEO de erronea.eu"
     }, 
