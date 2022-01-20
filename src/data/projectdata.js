@@ -37,7 +37,7 @@ const projectdata =
                     place:`Paris`,
                     year:`2006`, 
                     code:`CCF`,
-                    description: `This was a Data Migration project. This was also the largest of the kind within HSBC. 2.6 million customers were migrated from CCF to HSBC in Franc on a single weekend.`,
+                    description: `This was a Data Migration project. This was also the largest of the kind within HSBC. 2.6 million customers were migrated from CCF to HSBC in France on a single weekend.`,
                     role :  `Data Migration Lead Architect`, 
                     stars: 5,
                     order: 20
@@ -277,7 +277,7 @@ const projectdata =
                     year:`2006`, 
                     role :  `Data Migration Lead Architect`, 
                     code:`CCF`,
-                    description: `Este fue un proyecto de migración de datos. Este fue también el más grande del tipo dentro de HSBC. 2,6 millones de clientes migraron de CCF a HSBC en francos en un solo fin de semana.`,
+                    description: `Este fue un proyecto de migración de datos. Este fue también el más grande del tipo dentro de HSBC. 2,6 millones de clientes migraron de CCF a HSBC en Francia en un solo fin de semana.`,
                     stars: 5,
                     order: 20
                 },
