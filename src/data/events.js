@@ -188,8 +188,8 @@ const events
         order : 88, 
         header: "IT Trainer, Forbes UK, London",
         url: "http://www.forbes.com/es",
-        description: `Este fue un trabajo tanto para la capacitación como para la preparación de material de capacitación para la capacitación en el sitio. Tuve la iniciativa de abrir los cursos a candidatos en línea y a distancia. Debido a 
-            la enorme demanda, resultó ser un nuevo mercado para la empresa `
+        description: `Este fue un trabajo tanto de formacion de estudiantes como de creacion del material didactico. Tuve la iniciativa de crear un sistema de Distance Learning que de hecho abrio un nuevo mercado a la empresa. Debido a 
+            Fue el primer curso de este tipe en Inglaterra `
 
       },
 
