@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+
+        <loc>https://ferranclosa.eu/</loc>
+
+        <lastmod>2005-01-01</lastmod>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.8</priority>
+
+    </url>
+
+    <url>
+
+        <loc>https://ferranclosa.eu/main/en</loc>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+
+    <url>
+
+        <loc>https://ferranclosa.eu/main/sp</loc>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+
+    <url>
+
+        <loc>https://ferranclosa.eu/professional/sp</loc>
+
+        <lastmod>2022-01-10</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+    <url>
+
+        <loc>https://ferranclosa.eu/personal/sp</loc>
+
+        <lastmod>2022-01-10</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+    <url>
+
+        <loc>https://ferranclosa.eu/skills/sp</loc>
+
+        <lastmod>2022-01-10</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+    <url>
+
+        <loc>https://ferranclosa.eu/projects/sp</loc>
+
+        <lastmod>2022-01-10</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+    <url>
+
+        <loc>https://ferranclosa.eu/contact/sp</loc>
+
+        <lastmod>2022-01-10</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+  <url>
+
+        <loc>https://ferranclosa.eu/timeline/sp</loc>
+
+        <lastmod>2022-01-10</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+    <url>
+
+        <loc>https://ferranclosa.eu/main/en</loc>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+
+    <url>
+
+        <loc>https://ferranclosa.eu/professional/en</loc>
+
+        <lastmod>2022-01-10</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+    <url>
+
+        <loc>https://ferranclosa.eu/personal/en</loc>
+
+        <lastmod>2022-01-10</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+    <url>
+
+        <loc>https://ferranclosa.eu/skills/en</loc>
+
+        <lastmod>2022-01-10</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+    <url>
+
+        <loc>https://ferranclosa.eu/projects/en</loc>
+
+        <lastmod>2022-01-10</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+    <url>
+
+        <loc>https://ferranclosa.eu/contact/en</loc>
+
+        <lastmod>2022-01-10</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+  <url>
+
+        <loc>https://ferranclosa.eu/timeline/en</loc>
+
+        <lastmod>2022-01-10</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+    </url>
+
+
+</urlset>
