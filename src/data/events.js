@@ -253,7 +253,7 @@ const events
         header: "Violinista, Orquesta Sinfónica del Vallés, Sabadell",
         url: "http://www.osvalles.com/es",
         description:
-          'Una orquesta de nueva creación brindó oportunidades. Esto comenzó un período en mi vida en el que fui a la vez un musicien y un profesor de música',
+          'Una orquesta de nueva creación brindó oportunidades. Esto comenzó un período en mi vida en el que fui a la vez musico y profesor de música',
       },
       {
         when: "1992",
