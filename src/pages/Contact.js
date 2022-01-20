@@ -76,8 +76,7 @@ const Contact = (props) => {
                                     {one.means === "cv" ? 
                                     (<a href={one.url} target="_blank" download><FileDownloadIcon></FileDownloadIcon></a>): null}
                                     
-                                    {/* <a href="/src/assets/img/Ferran CV 3.pdf" target="_blank" download>Download</a> */}
-                                </div>
+                                  </div>
                             </div>
                         )))
 
