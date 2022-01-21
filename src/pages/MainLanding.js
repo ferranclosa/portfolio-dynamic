@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import image from 'assets/icon/favicon.ico'
+// import image from 'assets/icon/favicon.ico'
 
 
 import { mains } from "data/mains";
