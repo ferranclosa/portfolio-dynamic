@@ -84,6 +84,11 @@ main {
   &#home {
     overflow: hidden;
   }
+  
+}
+
+#contact{
+  overflow: hidden;
 }
 
 .basic-form-container{
@@ -576,20 +581,19 @@ nav {
   width: 45px;
 }
 
-.lang-menu {
-  width: 100px;
-  text-align: right;
-  // font-weight: bold;
-  margin-top: 25px;
-  position: relative;
-}
+// .lang-menu {
+//   width: 100px;
+//   text-align: right;
+//   margin-top: 25px;
+//   position: relative;
+// }
 
-.lang-menu .selected-lang {
-  display: flex;
-  justify-content: space-between;
-  line-height: 2;
-  cursor: pointer;
-}
+// .lang-menu .selected-lang {
+//   display: flex;
+//   justify-content: space-between;
+//   line-height: 2;
+//   cursor: pointer;
+// }
 
 /* Dropdown Button */
 .dropbtn {
@@ -632,7 +636,7 @@ nav {
   text-decoration: none;
   display: block;
   font-weight: bold;
-  // text-align: right;
+  
 }
 
 /* Change color of dropdown links on hover */
@@ -647,20 +651,9 @@ nav {
   display: block;
 }
 
-/* Show the dropdown menu on hover */
-// .dropdown:active .dropdown-content {
-//   display: none;
-// }
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: $primary-light;
-}
-
 .MuiCard-root {
   background-color: $primary-light !important;
   color: $secondary-light !important;
-  // margin-bottom: 1rem;
 }
 
 .MuiCardHeader-subheader {

@@ -4,16 +4,8 @@ import image from 'assets/icon/favicon.ico'
 import languages from "data/languages";
 import menus from 'data/menus'
 
-
 const Navbar = (props) => {
-
     let navigate = useNavigate()
-
-    // const {language } = props
-
-    const [showL, setShowL] = useState(false)
-    const [show, setShow] = useState(true)
-
     const [language, setLanguage] = useState(props.language)
     const [langMenu, setLangMenu] = useState({})
     const [menu, setMenu] = useState({})
@@ -34,19 +26,13 @@ const Navbar = (props) => {
                     timel: one.timel,
                     capture: one.capture
                 })
-
             }))
-        setShowL(!showL)
-
     }, [language])
-
-
 
     const handleSpanish = () => {
         setLanguage('sp')
         navigate('/main/sp')
     }
-
 
     const handleFrench = () => {
         setLanguage('fr')
@@ -80,8 +66,6 @@ const Navbar = (props) => {
             default:
                 break;
         }
-        setShow(!show)
-
     }
 
     const handlePersonal = () => {
@@ -101,8 +85,6 @@ const Navbar = (props) => {
             default:
                 break;
         }
-        setShow(!show)
-
     }
 
     const handleSkills = () => {
@@ -122,8 +104,6 @@ const Navbar = (props) => {
             default:
                 break;
         }
-        setShow(!show)
-
     }
 
     const handleProjects = () => {
@@ -143,8 +123,6 @@ const Navbar = (props) => {
             default:
                 break;
         }
-        setShow(!show)
-
     }
 
     const handleContact = () => {
@@ -164,8 +142,6 @@ const Navbar = (props) => {
             default:
                 break;
         }
-        setShow(!show)
-
     }
 
     const handleTimeLine = () => {
@@ -185,29 +161,6 @@ const Navbar = (props) => {
             default:
                 break;
         }
-        setShow(!show)
-
-    }
-
-    const handleCapture = () => {
-        switch (language) {
-            case 'en':
-                navigate('/data/en')
-                break;
-            case 'sp':
-                navigate('/data/sp')
-                break
-            case 'ca':
-                navigate('/data/ca')
-                break
-            case 'fr':
-                navigate('/data/fr')
-                break
-            default:
-                break;
-        }
-        setShow(!show)
-
     }
 
     return (
@@ -216,7 +169,6 @@ const Navbar = (props) => {
                 <div className="logo">
                     <img src={image} alt="erronea" />
                 </div>
-
                 <div className="dropdown">
                     <button className="dropbtn">{langMenu.text}</button>
                     <div className="dropdown-content">
@@ -224,11 +176,10 @@ const Navbar = (props) => {
                         {langMenu.sp !== undefined ? <a onClick={handleSpanish}>{langMenu.sp}</a> : null}
                         {langMenu.fr !== undefined ? <a onClick={handleFrench}>{langMenu.fr}</a> : null}
                         {langMenu.ca !== undefined ? <a onClick={handleCatalan}>{langMenu.ca}</a> : null}
-
                     </div>
                 </div>
 
-                <div className="dropdown dropdown-tabs">
+                <div className="dropdown">
                     <button className="dropbtn">Menu</button>
                     <div className="dropdown-content">
                         {menu.profes !== undefined ? <a onClick={handleProfesional}>{menu.profes}</a> : null}
@@ -237,13 +188,11 @@ const Navbar = (props) => {
                         {menu.projects !== undefined ? <a onClick={handleProjects}>{menu.projects}</a> : null}
                         {menu.contact !== undefined ? <a onClick={handleContact}>{menu.contact}</a> : null}
                         {menu.timel !== undefined ? <a onClick={handleTimeLine}>{menu.timel}</a> : null}
-                        {menu.capture !== undefined ? <a onClick={handleCapture}>{menu.capture}</a> : null}
                     </div>
                 </div>
             </nav>
         </div>
     )
-
 }
 export default Navbar
 

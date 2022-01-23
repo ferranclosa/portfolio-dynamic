@@ -415,6 +415,10 @@ main#home {
   overflow: hidden;
 }
 
+#contact {
+  overflow: hidden;
+}
+
 .basic-form-container {
   display: flex;
   flex-direction: row;
@@ -869,20 +873,6 @@ nav {
   width: 45px;
 }
 
-.lang-menu {
-  width: 100px;
-  text-align: right;
-  margin-top: 25px;
-  position: relative;
-}
-
-.lang-menu .selected-lang {
-  display: flex;
-  justify-content: space-between;
-  line-height: 2;
-  cursor: pointer;
-}
-
 /* Dropdown Button */
 .dropbtn {
   background-color: #1c2837;
@@ -933,12 +923,6 @@ nav {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-/* Show the dropdown menu on hover */
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #3e587b;
 }
 
 .MuiCard-root {
