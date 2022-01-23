@@ -8,6 +8,8 @@ import Collapse from '@mui/material/Collapse';
 
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
+import Rating  from '@mui/material/Rating';
+
 
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
@@ -25,7 +27,7 @@ const ExpandMore = styled((props) => {
 
 const SkillCard = (props) => {
 
-    let { title, level, description } = props
+    let { title, level, description, stars } = props
 
    
 
@@ -37,17 +39,13 @@ const SkillCard = (props) => {
 
     return (
         <Card 
-    
         >
             <CardHeader
-      
                 title={title}
-        
             />
-           
-          
             <CardActions disableSpacing>
-         
+            <Rating name="read-only" value={stars} readOnly />
+      
                 <ExpandMore
                     expand={expanded}
                     onClick={handleExpandClick}

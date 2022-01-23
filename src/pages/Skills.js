@@ -33,7 +33,8 @@ const Skills = (props) => {
                     firstWord: one.firstWord,
                     spannedWord: one.spannedWord,
                     intro: one.intro,
-                    details: one.details
+                    details: one.details, 
+                    
                 })
             }))
 
@@ -61,6 +62,7 @@ const Skills = (props) => {
                             <SkillCard
                                 title={one.title}
                                 level={one.level}
+                                stars={one.stars}
                                 description={one.description} />
 
                         </div>
