@@ -411,6 +411,9 @@ main .icons a {
 main .icons a:hover {
   color: #fcc62d;
 }
+main#home {
+  overflow: hidden;
+}
 
 .basic-form-container {
   display: flex;
