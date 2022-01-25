@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import Rating  from '@mui/material/Rating';
+import Rating from '@mui/material/Rating';
 
 import paris from 'assets/img/Paris.jpg'
 import paris2 from 'assets/img/Paris2.jfif'
@@ -23,6 +23,7 @@ import istambul from 'assets/img/Istambul.jpg'
 import london from 'assets/img/London.jpg'
 import athens from 'assets/img/Athens.jpg'
 import commerce from 'assets/img/bourse_de_commerce.jpg'
+import orchestra from 'assets/img/Orchestra.jpg'
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -39,10 +40,10 @@ const ExpandMore = styled((props) => {
 const StyledRating = styled(Rating)({
   paddingRight: '10px',
   '& .MuiRating-iconFilled': {
-      color: '#ff6d75',
+    color: '#ff6d75',
   },
   '& .MuiRating-iconHover': {
-      color: '#ff3d47',
+    color: '#ff3d47',
   },
 });
 
@@ -78,6 +79,8 @@ const ProjectCard = (props) => {
         return malta
       case 'CCF':
         return commerce
+      case 'ORQ':
+        return orchestra
 
       default:
         return null
@@ -102,22 +105,22 @@ const ProjectCard = (props) => {
       />
 
       <CardActions disableSpacing>
-        {/* <Rating name="read-only" value={stars} readOnly /> */}
+    
         <StyledRating
-                                        className="styled-rating"
-                                        name="customized-color"
+          className="styled-rating"
+          name="customized-color"
 
-                                        value={stars}
-                                        readOnly
-                                        size='small'
-                                        getLabelText={(value) => `${value} Heart${value !== 1 ? 's' : ''}`}
-                                        precision={0.25}
-                                        icon={<FavoriteIcon fontSize="inherit" />}
-                                        emptyIcon={<FavoriteBorderIcon fontSize="inherit" />}
-                                    />
-      
-          {  role}
-      
+          value={stars}
+          readOnly
+          size='small'
+          getLabelText={(value) => `${value} Heart${value !== 1 ? 's' : ''}`}
+          precision={0.25}
+          icon={<FavoriteIcon fontSize="inherit" />}
+          emptyIcon={<FavoriteBorderIcon fontSize="inherit" />}
+        />
+
+        {role}
+
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}
