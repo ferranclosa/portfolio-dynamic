@@ -9,7 +9,8 @@ import Collapse from '@mui/material/Collapse';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-// import FavoriteIcon from '@mui/icons-material/Favorite';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import Rating  from '@mui/material/Rating';
 
 import paris from 'assets/img/Paris.jpg'
@@ -33,6 +34,17 @@ const ExpandMore = styled((props) => {
     duration: theme.transitions.duration.shortest,
   }),
 }));
+
+
+const StyledRating = styled(Rating)({
+  paddingRight: '10px',
+  '& .MuiRating-iconFilled': {
+      color: '#ff6d75',
+  },
+  '& .MuiRating-iconHover': {
+      color: '#ff3d47',
+  },
+});
 
 const ProjectCard = (props) => {
 
@@ -90,7 +102,19 @@ const ProjectCard = (props) => {
       />
 
       <CardActions disableSpacing>
-        <Rating name="read-only" value={stars} readOnly />
+        {/* <Rating name="read-only" value={stars} readOnly /> */}
+        <StyledRating
+                                        className="styled-rating"
+                                        name="customized-color"
+
+                                        value={stars}
+                                        readOnly
+                                        size='small'
+                                        getLabelText={(value) => `${value} Heart${value !== 1 ? 's' : ''}`}
+                                        precision={0.25}
+                                        icon={<FavoriteIcon fontSize="inherit" />}
+                                        emptyIcon={<FavoriteBorderIcon fontSize="inherit" />}
+                                    />
       
           {  role}
       

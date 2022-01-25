@@ -63,6 +63,7 @@ const Skills = (props) => {
                                 title={one.title}
                                 level={one.level}
                                 stars={one.stars}
+                                love={one.love}
                                 description={one.description} />
 
                         </div>
