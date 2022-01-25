@@ -46,10 +46,10 @@ const contac = [
     ]}, 
     {  language: "fr",
     title: "Ferran Closa Cervera",
-    firstWord: "comment me  ",
-    spannedWord: "Contacter",
+    firstWord: "mes ",
+    spannedWord: "Coordonées",
     lastWord: "", 
-    intro: "Merci de utiliser ces moyens de contact, seulement pour des fins professionelles",
+    intro: "Veuillez utiliser les coordonnées suivantes exclusivement à des fins professionnelles",
     details: [
         { means: "email", mean: "ferranclosa@gmail.com" , url:"mailto: ferranclosa@gmail.com" , icon:"https://img.icons8.com/ios-filled/100/000000/github.png"},
         { means: "github", mean: "github/ferranclosa", url:"https://github.com/ferranclosa"},

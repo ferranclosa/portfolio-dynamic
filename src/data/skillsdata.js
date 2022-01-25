@@ -156,51 +156,79 @@ const skillsdata =
         {
             language: "fr",
             title: "Ferran Closa Cervera",
-            firstWord: "les ",
+            firstWord: "mes ",
             spannedWord: "Compétences",
             lastWord: "",
-            intro: `Les compétences que j’ai acquises au fil des ans sont construites en sous de ma curiosité et pour trouver des réponses aux besoins déclarées par les métiers a qui je sers. J’ai un fort esprit analytique et je reconnais des modèles
-             à des problèmes et a ces solutions. Dans mon cas, quand j’identifie un modèle il m’est plus facile de visualiser une solution. ` ,
+            intro: `Les compétences que j’ai acquises au fil des années se sont  construites au fur et à mesure, motivées par ma curiosité et par les différentes situations auxquelles j’ai fait face. J’ai un esprit très analytique, j’aime découvrir des schémas et des modèles. Ceci m’a permis de réaliser les nombreux apprentissages que j’ai entrepris et que j’entreprends encore. Créer et apporter des solutions à des situations qui en ont besoin me procure du plaisir. ` ,
             details: [
+                {
+                    title: "Architecte d’entreprise",
+                    level: "Niveau : Excelent",
+                    description: `En tant qu’architecte d’entreprise, je suis au service du secteur de la banque commerciale. Nos produits et nos marchés évoluent et cela implique une adaptation continuelle qui précise d’une analyse, d’une étude et d’une proposition de plan d’action. Je suis en cours de certification TOGAF.`,
+                    stars: 5,
+                    order: 0
+                }, 
+                
+                {
+                    title: "Architecte de solutions",
+                    level: "Niveau : Excelent",
+                    description: `En tant qu’architecte de solutions, ma tâche consistait à analyser les cas présentés par l’entreprise et à proposer des solutions. Normalement, l’étendue et les limites sont faciles à identifier. Les échanges entre la solution et l’entourage se limitaient à API et à l’échange de fichiers. Dans ce contexte, j’ai beaucoup appris sur Control M, le traitement par lots (batch), l’analyse et l’optimisation de rendements, SOAP et la négociation avec des usagers.`,
+                    stars: 4,
+                    order: 2
+                },
+                     
+                { 
+                    title: "Web & Front End", 
+                    level: "Nivel: Bueno", 
+                    description: `     
+                    { 
+                        title: "Web & Front End", 
+                        level: "Nivel: Bueno", 
+                        description: "Javascript, React, HTML5 et CSS3. Ce sont les compétences que j'ai utilisées pour produire les prototypes nécessaires à des solutions de bout en bout, qui précisaient de front end et back end (contrôleur, service, base de données et ses API). Dans ce sens, je me considère un développeur Full Stack. Cette page Web, par exemple, est une SPA avec ReactJs qui est déployée en Heroku pour être consultée sur le Web." , 
+                        stars: 4,
+                        order: 8
+                    }, ` , 
+                    stars: 4,
+                    order: 8
+                }, 
                 {
                     title: "Gestion des Projets",
                     level: "Bon",
-                    description: `J’ai appris les différentes méthodologies (SDLC et Agile) ainsi que certains des outils (Jira, MS Project, Niku) utilisés dans ce domaine. J’excelle dans la gestion d’équipe, la motivation et la rupture des silos. J’ai beaucoup d’expérience dans la résolution des conflits intra-projet pour des ressources limitées et dates conflictuels`,
+                    description: `J’ai appris et utilisé pour le travail plusieurs méthodologies comme SDLC (Software Development Life Cycle) et Agile, ainsi que les instruments d’usage habituel dans ce métier. Gérer des équipes, motiver et rompre l’isolement sont mes points forts. J’ai beaucoup d’expérience dans le domaine de l’interdépendance des projets, et aussi de l’identification et la création du chemin critique d’un projet. Je suis capable d’assumer le rôle de chef de projet, mais ce n’est pas une vocation.`,
                     stars: 2,
                     order: 5
                 },
                 { 
                     title: "Microservices & API", 
-                    level: "Excellente", 
-                    description: `Pour moi les Micro services ont été le parcours que j’ai suivi pour faire le passage du monde ‘legacy’ au monde ‘moderne’ et j’en suis très reconnaissant. Je me trouve dans un univers ou je maitrise les deux types de technologies, du Structured Programming au OOP et aussi Fonctional Programming. `, 
+                    level: "Niveau : Excelent",
+                    description: `Le modèle des microservices et ses variations m’intéressent beaucoup depuis bien des années. Mon intérêt porte en particulier sur les possibilités liées à DEVOPS, le Cloud et tout que cela représente pour l’optimisation et la rationalisation des ressources. J’ai participé plein d’enthousiasme à un projet de modernisation d’un système monolithique, très robuste et très sûr, mais qui était devenu un système très cher et complexe à faire évoluer. Nous avons commencé par un hybride monolithe-microservice, et petit à petit et sans prendre de risques, nous avons fait passer les fonctions de l’un vers l’autre.`, 
                     stars: 5,
                     order: 1},
                 { 
                     title: "RPG & CL", 
-                    level: "Excellente", 
-                    description: "Utilisé pour AS/400 ou iSeries. À part la maintenance des systèmes hérités, je ne me vois pas le développer davantage. C’est dommage, car la langue est très riche et je suis devenu extrêmement compétent avec elle" , 
+                    level: "Excellent", 
+                    description: "Je suis très compétent sur ce type de serveur (iSeries) en COBOL, RPGLE, CLLE. Mais j’envisage l’utilisation de cette compétence seulement dans un contexte historique, pour partager les anecdotes de l’illustre passé de l’informatique, mais aussi pour les éléments de transfert qu’elle a apportées à ma formation solide en tant que professionnel. La majorité des concepts que je retrouve dans mon travail de chaque jour est directement héritée de ce passé." , 
                     stars: 1,
                     order: 9
                 },
                 { 
                     title: "Java & J2EE", 
-                    level: "Excellente", 
-                    description: "Jusqu’à Java 8 et 9, principalement en l’utilisant pour les API et les Microservices, mais aussi au niveau des Génériques." , 
+                    level: "Excellent", 
+                    description: "Java est mon langage préféré. Java (J2EE) m’a permis une transition facile du monde des iSeries, ou tout ce dont j’avais besoin était toujours à portée de main, vers le monde d’aujourd’hui, sans qu’il ne me manque rien. Et ce n’est pas tout : ce nouveau monde a progressé de façon exponentielle, avec les énormes possibilités apportées par le web, HTTP, FTP, les messages, les emails, les API, l’Open Source. C’était merveilleux. Actuellement, j’ai entrepris la certification OCP 11 ; jusque-là, il n’y avait aucun besoin de le faire. Je réalisais simplement le travail, et ce pendant de nombreuses d’années." , 
                     stars: 4,
                     order: 8
                 },
                 { 
                     title: "Languages", 
                     level: "Very fluent", 
-                    description: "L’anglais est la langue dans laquelle je pense au niveau profesionel. Français, bien que je l’ai appris plus tard dans la vie, je le parle aussi très couramment. Bien sûr, l’espagnol et le catalan, comme langues maternelles, même si pour le vocabulaire courant de l'Informatique, je suis beacoup plus a l'aise en Anglais et Francais", 
-
+                    description: "L’anglais est la langue dans laquelle je pense, quand je pense au travail. La raison en est simple : tout ce que j’ai appris en informatique, je l’ai appris en anglais. Le français, par le fait d’avoir travaillé à Paris ces dernières 20 années. Je suis Catalan et Espagnol par ma naissance. Ma capacité de communication dans ces quatre langues est absolue.", 
                     stars: 4,
                     order: 9
                 },
                 { 
                     title: "Frameworks", 
                     level: "Très compétent", 
-                    description: "Spring, SpringBoot, React, NodeJs, Cloud et Devops (Git, Jenkins, AWS, Heroku, PCF), liés au Web (HTML5, CSS3, JavaScript)" , 
+                    description: "iSeries, MQSeries, DataStage, JMS (Kafka, RabitMQ), JPA (and Hibernate), SpringBoot, React, NodeJs, Cloud (Heroku, Pivotal Cloud Foundry, GCP) et Devops( Git, Jenkins, Sonnatype)" , 
                     stars: 4,
                     order: 9
                 },

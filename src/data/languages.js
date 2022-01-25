@@ -5,7 +5,7 @@ const languages =
             text: "Castellano",
             en: "Inglés",
             // ca: "Catalàn",
-            // fr: "Francés"
+            fr: "Francés"
 
         },
         {
@@ -13,7 +13,7 @@ const languages =
             text:"English",
             sp: "Spanish",
             // ca: "Catalan",
-            // fr: "French"
+             fr: "French"
 
         },
         // {
@@ -23,13 +23,13 @@ const languages =
         //     text: "Català",
         //     fr: "Francés"
         // },
-        // {
-        //     language: "fr",
-        //     ca: "Catalan",
-        //     sp: "Espagnol",
-        //     en: "Anglais",
-        //     text: "Français",
-        // }
+        {
+            language: "fr",
+            // ca: "Catalan",
+            sp: "Espagnol",
+            en: "Anglais",
+            text: "Français",
+        }
     ]
 
 

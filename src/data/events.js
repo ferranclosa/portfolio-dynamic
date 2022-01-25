@@ -217,6 +217,112 @@ const events
     ],
   },
   {
+    language: "fr",
+    events: [
+      {
+        when: "January, 1962",
+        where: "Terrassa, Barcelona Spain",
+        header: "Naissance",
+
+        type: "LIVE", 
+        url: "https://www.terrassa.cat/es",
+        order : 1, 
+        description:
+          'Une de ces choses qui arrivent.',
+      },
+
+      {
+        when: "1970- 1981",
+        where: "Barcelona Spain",
+        header: "Etudes de musique et de violon. Graduation",
+        type: "EDUC", 
+        url: "https://ajuntament.barcelona.cat/conservatori/es",
+        order : 2, 
+        description:
+          'C’était à cause d’un rêve, après avoir vu un enfant de 9 ans jouer une pièce de Saraste à la télévision. Quel voyage !',
+      },
+      {
+        when: "June, 1983",
+        where: "Sevilla, Spain",
+        header: "Violiniste",
+        type:"MUSI",
+        url: "https://rossevillatv.com",
+        order : 3, 
+
+        description:
+          'Je me suis présenté et j’ai obtenu la place proposée au sein de l’Orchestre Symphonique de la Maestranza, à Séville. C’était mon premier travail de musicien.',
+      },
+      {
+        when: "June, 1984",
+        where: "Barcelona, Spain",
+        header: "Professeur de violon, Conservatoire Liceu Mataró, Barcelone",
+        type:"MUSI",
+        url: "https://www.conservatoriliceu.es/escoles/vinculades/escola-de-musica-liceu-mataro/",
+        order : 4, 
+        description:
+          'Un poste de professeur était vacant à Mataró, près de ma ville natale. Je me suis présenté, j’ai obtenu le poste et j’ai de nouveau déménagé à Barcelone.',
+      },
+      {
+        when: "1987-1992",
+        where: "Barcelona, Spain",
+        header: "Violiniste, Orchestra Sinfonica del Vallés, Sabadell",
+        type:"MUSI",
+        order : 5, 
+        url: "http://www.osvalles.com/es",
+        description:
+          'Un orchestre de nouvelle création proposait des postes. C’était le début d’une période de ma vie ou j’étais musicien et professeur de musique à la fois.',
+      },
+      {
+        when: "1992",
+        where: "London, United Kingdom",
+        header: "Le mystère, et le déménagement à Londres",
+        url: "https://www.enthealth.org/conditions/cholesteatoma/",
+        type:"TRAV",
+        order : 6, 
+        description:
+          'Toutes les histoires cachent un mystère. Voilà le mien. J’ai décidé d’aller vivre à Londres, pour créer un espace entre mon passé et ce qui deviendrait mon futur.',
+      },
+      {
+        when: "1992-1994",
+        where: "London, United Kingdom",
+      
+        header: "Etudiant en IT, Londres",
+        type:"EDUC",
+        order : 7, 
+        url: "http://www.osvalles.com/es",
+        description: `J’avais décidé d’investir dans l’apprentissage d’une langue de programmation, comme COBOL, RPG, Object Pascal et Visual Basic, avec l’espoir de trouver du travail. `
+      },
+      {
+        when: "1994-1997",
+        where: "London, United Kingdom",
+      
+        header: "IT Educateur",
+        type: "TRAIN",
+        order : 8, 
+        url: "http://www.forbes.com/es",
+        description: `Ce travail comprenait aussi bien la livraison des courses que la préparation de nouveau matérielle didactique. A ma propre initiative, je proposais la création d’un système informatique pour proposer des courses a distance, ce qu’a ouvert un nouveau marché a l’entreprise` },
+
+      {
+        when: "1998-2007",
+        header: "Developpeur Logiciel",
+        where: "(Malta, Athens, Bermuda, Vancouver, Istanbul, Madrid, London)",
+        type:"DEVE",
+        order : 9, 
+        url: "https://www.hsbc.co.uk/",
+        description: `J’ai été recruté par un de mes anciens étudiants chez Forbes. J’ai commencé comme développeur et avait gravi les échelons pour atteindre des postes toujours plus élevées. `
+      },
+      {
+        when: "2007- now",
+        where: "Paris, France",
+        header: "Commercial Banking Architecte",
+        type:"ARCH",
+        order : 10, 
+        url: "https://www.hsbc.fr/",
+        description: `De HSBC UK je suis venu en France en tant qu’expert ETL. Après un séjour de 5 ans en France, comme expatrié, on m’a proposé un poste d’expert en systèmes HSBC et architecte de banque commerciale. `
+      },
+    ],
+  },
+  {
     language: "ca",
     events: [
       {

@@ -38,8 +38,8 @@ const mains = [
         title: "Ferran Closa Cervera",
         firstWord: "Ferran ", 
         spannedWord: "Closa Cervera", 
-        subtitle: "Architecte Informatique d'Entreprise, Especialisé en Microservices, web, Tecnologies Front y Back, Formateur",
-        description: "Bienvenue sur mon site WEB. Je suis actuellement employé, mais je suis activement à la recherche d’autres options et ouvert aux offres. Comme vous le verrez, mon profil est assez hétérodoxe, mais dans mon cas, c’est cela qui apporte richesse et pensée latérale aux projets dans lesquelles je participe.     ",
+        subtitle: "Architecte d’entreprise, spécialiste en microservices, web, technologies front end et back end, éducateur ",
+        description: "Bienvenue sur ma page web. Vous verrez que mon profil est un peu hétérodoxe, mais dans mon cas, c’est ce qui apporte de la richesse et la pensée latérale. En ce moment, je travaille sur un grand projet paneuropéen. Ma devise est d’accueillir le changement, je suis convaincu que le changement nous enrichit et nous apporte de nouvelles possibilités.",
         ceo: "CEO de erronea.eu"
     }
 ]
