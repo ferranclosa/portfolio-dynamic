@@ -400,17 +400,20 @@ main#home {
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 100vh;
   justify-content: space-between;
 }
 .container .portrait {
-  width: 500px;
-  height: auto;
+  min-width: 75vw;
+  min-height: 450px;
   background-image: url("../img/Ferran Aug 2021.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  border-radius: 45px;
+  border: 1px solid #fcc62d;
+  border-radius: 35px;
+  background-size: cover;
+  background-position: center;
+  object-fit: fill;
 }
 .container .welcome {
   font-size: 1.5rem;
@@ -868,8 +871,8 @@ div.menu-branding.show {
     align-items: center;
   }
   .container > .portrait {
-    min-width: 95vw;
-    min-height: 500px;
+    min-width: 75vw;
+    min-height: 450px;
     background-image: url("../img/Ferran Aug 2021.jpg");
     background-repeat: no-repeat;
     background-size: cover;
