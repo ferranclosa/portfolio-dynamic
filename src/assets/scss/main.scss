@@ -288,15 +288,15 @@ main {
     min-height: 450px;
     background-image: url("../img/Ferran Aug 2021.jpg");
     background-repeat: no-repeat;
-    // border: 1px solid $secondary-dark ;
+   
     border-radius: 35px;
     background-size: auto;
     background-position: center center;
-    // object-fit: fill;
+  
     
   }
   .welcome {
-    // flex: 1, 0, 60%;
+  
     font-size: 1.5rem;
     padding-left: 20px;
   }
@@ -317,7 +317,7 @@ main {
   border: 1px solid #9fa4a8;
   border-radius: 5px;
   margin: 10px 0;
-  // padding: 7px;
+ 
   position: relative;
   overflow: hidden;
   transition: 0.3s ease;
