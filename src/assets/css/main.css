@@ -228,7 +228,7 @@ main .icons a:hover {
   color: #fcc62d;
 }
 main#home {
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .basic-form-container {
@@ -491,142 +491,6 @@ main#home {
   writing-mode: horizontal-tb;
 }
 
-@media (max-width: 600px) {
-  .hidden {
-    display: none;
-  }
-
-  .cards {
-    height: 100%;
-    margin: 0;
-  }
-
-  .cards-container {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100%;
-  }
-
-  .cards-panel {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    width: 100vw;
-    border-radius: 50px;
-    cursor: pointer;
-    flex: 0.2 0 50px;
-    margin: 7px;
-    position: relative;
-    transition: flex 0.4s ease-in-out;
-  }
-
-  .cards-panel h3 {
-    position: absolute;
-    background: none;
-    color: black;
-    z-index: 1;
-    justify-content: center;
-    align-items: center;
-    writing-mode: horizontal-tb;
-  }
-
-  .cards-panel.active {
-    flex: 5;
-  }
-
-  .cards-panel.active h3 {
-    color: white;
-    position: absolute;
-    font-weight: bolder;
-    top: 5px;
-    left: 60%;
-  }
-
-  .faq-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  .faq {
-    border: 1px solid #9fa4a8;
-    border-radius: 5px;
-    margin: 10px 0;
-    position: relative;
-    overflow: hidden;
-    transition: 0.3s ease;
-    width: 100%;
-    height: auto;
-  }
-
-  .faq-title {
-    font-size: 1.7rem;
-    margin: 0 35px 0 0;
-  }
-
-  .faq-text {
-    display: none;
-    margin: 30px 0 0;
-    color: black;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-  }
-
-  .project-container .project-intro {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-  .project-container .project-item-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-  }
-  .project-container .project-item-container .project-item {
-    background: #253448;
-    width: 90%;
-    height: auto;
-    margin-top: 1rem;
-    border-bottom: #fcc62d 5px solid;
-  }
-
-  .portrait {
-    height: 100%;
-    background-image: url("../img/Ferran_guaperas.jfif");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    border-radius: 50px 50px;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .container .portrait {
-    display: none;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/Ferran_guaperas.jfif");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    border-radius: 50px 50px;
-  }
-  .container .welcome {
-    margin-top: 10px;
-    font-size: 1.5rem;
-    padding-left: 20px;
-  }
-  .container p {
-    width: 100%;
-  }
-}
 @media (min-width: 500) {
   .hidden {
     display: none;
@@ -888,6 +752,139 @@ div.menu-branding.show {
 
   .projects {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  main #home {
+    overflow: scroll;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .cards {
+    height: 100%;
+    margin: 0;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+  }
+
+  .cards-panel {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: 100vw;
+    border-radius: 50px;
+    cursor: pointer;
+    flex: 0.2 0 50px;
+    margin: 7px;
+    position: relative;
+    transition: flex 0.4s ease-in-out;
+  }
+
+  .cards-panel h3 {
+    position: absolute;
+    background: none;
+    color: black;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    writing-mode: horizontal-tb;
+  }
+
+  .cards-panel.active {
+    flex: 5;
+  }
+
+  .cards-panel.active h3 {
+    color: white;
+    position: absolute;
+    font-weight: bolder;
+    top: 5px;
+    left: 60%;
+  }
+
+  .faq-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .faq {
+    border: 1px solid #9fa4a8;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+    width: 100%;
+    height: auto;
+  }
+
+  .faq-title {
+    font-size: 1.7rem;
+    margin: 0 35px 0 0;
+  }
+
+  .faq-text {
+    display: none;
+    margin: 30px 0 0;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .project-container .project-intro {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .project-container .project-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  .project-container .project-item-container .project-item {
+    background: #253448;
+    width: 90%;
+    height: auto;
+    margin-top: 1rem;
+    border-bottom: #fcc62d 5px solid;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .container > .portrait {
+    min-width: 95vw;
+    min-height: 500px;
+    background-image: url("../img/Ferran Aug 2021.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #fcc62d;
+    border-radius: 35px;
+    margin: 10px;
+  }
+  .container .welcome {
+    font-size: 1.5rem;
+    padding-left: 20px;
+  }
+  .container p {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 5px;
   }
 }
 

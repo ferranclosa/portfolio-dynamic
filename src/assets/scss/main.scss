@@ -1,8 +1,6 @@
 @import "config";
-// @import "menu";
-// @import "Form";
-// @import "accordion";
-@import "timeline"; 
+
+@import "timeline";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
@@ -82,23 +80,19 @@ main {
   }
 
   &#home {
-    overflow: hidden;
+    overflow: scroll;
   }
-  
 }
 
-
-
-.basic-form-container{
-  display: flex; 
+.basic-form-container {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  
-  .basic-form-item{
+
+  .basic-form-item {
     width: 40%;
     margin: 40px;
-
   }
 }
 
@@ -375,150 +369,6 @@ main {
   writing-mode: horizontal-tb;
 }
 
-@media (max-width: 600px) {
-  .hidden {
-    display: none;
-  }
-  .cards {
-    height: 100%;
-    margin: 0;
-  }
-  .cards-container {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100%;
-  }
-  .cards-panel {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    width: 100vw;
-    border-radius: 50px;
-    cursor: pointer;
-    flex: 0.2 0 50px;
-    margin: 7px;
-    position: relative;
-    transition: flex 0.4s ease-in-out;
-  }
-  .cards-panel h3 {
-    position: absolute;
-    background: none;
-    color: black;
-    z-index: 1;
-    justify-content: center;
-    align-items: center;
-    writing-mode: horizontal-tb;
-  }
-  .cards-panel.active {
-    flex: 5;
-  }
-  .cards-panel.active h3 {
-    color: white;
-    position: absolute;
-    font-weight: bolder;
-    top: 5px;
-    left: 60%;
-  }
-
-  .faq-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  .faq {
-    border: 1px solid #9fa4a8;
-    border-radius: 5px;
-    margin: 10px 0;
-
-    position: relative;
-    overflow: hidden;
-    transition: 0.3s ease;
-    width: 100%;
-    height: auto;
-  }
-
-  .faq-title {
-    font-size: 1.7rem;
-    margin: 0 35px 0 0;
-  }
-
-  .faq-text {
-    display: none;
-    margin: 30px 0 0;
-    color: black;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-  }
-  
-.project-container {
-  .project-intro {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-  .project-item-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-
-    .project-item {
-      background: lighten($primary-color, 5);
-      width: 90%;
-      height: auto;
-      margin-top: 1rem;
-      border-bottom: $secondary-color 5px solid;
-    }
-  }
-}
-
-.portrait {
-  // display: block;
-  // width: 100%;
-  height: 100%; 
-  background-image: url("../img/Ferran_guaperas.jfif");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  border-radius: 50px 50px;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  // height: 100vh;
-  align-items: center;
-  // margin: 5px;
-  // justify-content: space-between;
-  .portrait {
-    display: none;
-    width: 100%;
-    height: 100%; 
-    background-image: url("../img/Ferran_guaperas.jfif");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    border-radius: 50px 50px;
-    // object-fit: cover;
-    // margin-bottom: 12rem;
-  }
-  .welcome {
-    margin-top: 10px;;
-    font-size: 1.5rem;
-    padding-left: 20px;
-  }
-
-  p {
-    width: 100%;
-  }
-}
-
-}
-
 @media (min-width: 500) {
   .hidden {
     display: none;
@@ -579,20 +429,6 @@ nav {
   width: 45px;
 }
 
-// .lang-menu {
-//   width: 100px;
-//   text-align: right;
-//   margin-top: 25px;
-//   position: relative;
-// }
-
-// .lang-menu .selected-lang {
-//   display: flex;
-//   justify-content: space-between;
-//   line-height: 2;
-//   cursor: pointer;
-// }
-
 /* Dropdown Button */
 .dropbtn {
   background-color: $primary-color;
@@ -622,10 +458,9 @@ nav {
   z-index: 1;
 }
 
-.dropdown-content-show{
+.dropdown-content-show {
   display: block;
 }
-
 
 /* Links inside the dropdown */
 .dropdown-content a {
@@ -634,15 +469,12 @@ nav {
   text-decoration: none;
   display: block;
   font-weight: bold;
-  
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
-
-
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
