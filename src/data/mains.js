@@ -6,7 +6,7 @@ const mains = [
         firstWord: "Ferran ", 
         spannedWord: "Closa Cervera", 
         subtitle: "Enterprise Architect, Microservices, Web, Full-Stack development, Trainer",
-        description: "Welcome to my website. As you will see my profile is somewhat heterodox, but in my case, this is what brings richness and lateral thinking to the projects I participate in. I'm currently participating on a pan-European project involving Germany, UK, Greece, Spain, Italy, France, Poland and others. However my motto remains 'Embrace Change' as it brings novelty and new possibilities",
+        description: "Welcome to my website. As you will see my profile is somewhat heterodox, but in my case, this is what brings richness and lateral thinking to the table. I'm currently participating on a pan-European transformation project. My motto remains 'Embrace Change' as it brings novelty and new possibilities",
         objectives: `I'm interested in Data Migration, Transfomation projects from Monolith to more distributed systems. `,
   
         ceo: "CEO of erronea.eu"
