@@ -281,18 +281,18 @@ main {
   flex-direction: column;
   height: 100vh;
   justify-content: space-between;
+  
   .portrait {
-    // width: 500px;
-    min-width: 75vw;
+ 
+    min-width: 90vw;
     min-height: 450px;
-    // height: auto;
     background-image: url("../img/Ferran Aug 2021.jpg");
     background-repeat: no-repeat;
-    border: 1px solid $secondary-dark ;
+    // border: 1px solid $secondary-dark ;
     border-radius: 35px;
-    background-size: cover;
-    background-position: center;
-    object-fit: fill;
+    background-size: auto;
+    background-position: center center;
+    // object-fit: fill;
     
   }
   .welcome {
